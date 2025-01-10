@@ -1,3 +1,7 @@
+#define V8 r(Vs,s+=8)
+#define d2(a,b) (e6)a2(a,b)
+#define si s[i]
+#define V3(g,z) _D(e6,g,z,Ea,Eb,Ec)
 #define Vr *(V*)r
 #define Vs *(V*)s
 #define PI 3.1415927410125732
@@ -8,9 +12,10 @@
 #define Yi Y[i]
 #define ai a[i]
 #define bi b[i]
+#define si s[i]
 #define ri r[i]
 #define _R(t,n,z) _x(R(t,n,z))
-#define R0(n,z) _x(R(0,n,UR=sr;      j(n ,R_=_(z))))
+#define RU(n,z) _x(R(0,n,UR=sr;      j(n ,R_=_(z))))
 #define RV(t,n,z)  R(t,n,VR=sr;      J(Nr,R_=_(z)))
 #define RG(z)  _x(R(1,nx,XR=sr;VX=sx;J(Nx,R_=C(g4,z))))
 #define X(z)     r(uz(x),VR=sr;VX=sx;J(Nx,R_=_(z)))

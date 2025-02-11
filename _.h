@@ -1,11 +1,18 @@
+#define af x(f,ax)
+#define mf x(f,mx)
+#define nf x(f,nx)
+#define __(z) _a(_x(z))
+#define Pi _P[8*i]
+#define _X(g,z) _Z(g,z,in,VX)
+#define AX(g,z) _Z(g,z,in,EA,EX)
+#define EB e6*B
 #define N4(z) i(n4(n),z)
 #define o(o) bu(ia32_##o##512)
 #define X(z) r(uz(x),VX=sx;VR=sr;J(Nx,R_=_(z)))
 #define Ox O[ox]
-#define N1(g,z) _Z(g,z,in,VX)
-#define N2(g,z) _Z(g,z,in,ER,EX)
 #define M(i,z) ((U)(i)<<32|~(b(15)<<32)&(z))
 #define re ((e2*)sr)
+#define ae ((e2*)sa)
 #define AT(z...) __attribute((z))
 #define AS(f,s,x...) ZU AT(naked)f(x){asm(s"ret");}
 #define _(n) AT(vector_size(1<<n),aligned(1))
@@ -26,7 +33,8 @@ typedef char i0,g4 _(4),g5 _(5),g6 _(6);typedef unsigned short i1;typedef unsign
 #define ZJ static j6
 #define ZE static e6
 #define ss i0*s
-extern U QQ(ss),w2(i2,ss),tn(i2,i2),k(i2,U,U);ZE ze;ZU _r(),r_();
+extern U QQ(ss),w2(i2,ss),tn(i2,i2);
+ZE ze;ZU _r(),r_();
 ZI z2,I={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15},BA={1,0,3,2,5,4,7,6,9,8,11,10,13,12,15,14},CB={0,2,1,4,3,6,5,8,7,10,9,12,11,14,13,15};ZJ J={0,1,2,3,4,5,6,7},z1={-1,-1,-1,-1,-1,-1,-1,-1};ZV 
 z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
 #define bu(o) __builtin_##o
@@ -48,7 +56,7 @@ _f(nu,bu(popcountl)(x))_f(iu,x?bu(ctzl)(x):64)_f(lu,--x?64-bu(clzl)(x):0)_e(ei,*
 _u(wc,w2(1,&i))is(w0,w2(i,s);wc(10);-1)_U(ws,w0(ic(0,s),s),ss)_u(wi,i0 d[12];i0*s=d+11;*s=10;in=i>>31?-i:i;do*--s=48+n%10;W(n/=10);if(i>>31)*--s=45;w2(d+12-s,s);i)
 Z0*ES[]={"nyi","rnk","len","typ"};is(err,w2(3,ES[i]);wc(58);ws(s))_f(wu,i0 d[16];i(16,ij=15&x>>60-4*i;d[i]="0W"[9<j]+j)w0(16,d);x)_D(i2,ie,*(i2*)&e,ee)
 #define Is(g,z) _D(i6,g,z,ss,Vx)
-#define mn(g,z) _Z(g,z,im,in,i2*d,i2*s)
+#define mn(g,z) _Z(g,z,il,im,in,i2*d,i2*s)
 #define OO(b) if(b)QQ(__func__);
 #define JR(t)   J(Nr,R_=C(t##6,X_))
 #define JX(t,T) J(Nx,R_=C(t,T##x))
@@ -101,21 +109,22 @@ Z0*ES[]={"nyi","rnk","len","typ"};is(err,w2(3,ES[i]);wc(58);ws(s))_f(wu,i0 d[16]
 #define cc i0 c
 #define hh i1 h
 #define EE {a=aa?a:T(3,a);x=T(3,x);}
-#define RU(z)     _R(0,nx,      UR=sr;j(nx,R_=_(z)))
 #define RV(t,n,z) _R(t,n,       VR=sr;J(Nr,R_=_(z)))
 #define RX(z) M(mx,_R(tx,nx,z))
 #define _R(t,n,z) _x(R(t,n,z))
 #define si s[i]
 #define IB i6*B
 #define Ea e6 a
-#define Yi Y[i]
-#define ai a[i]
+#define Bi B[i]
+#define ri r[i]
 #define si s[i]
 #define Vd *(g6*)d
 #define Vs *(g6*)s
 #define Z2 static i2
 #define Ze static e2
 #define R_ *R++
+
+#define B_ *B++
 #define A_ *A++
 #define X_ *X++
 #define Jz j6 z
@@ -127,6 +136,7 @@ Z0*ES[]={"nyi","rnk","len","typ"};is(err,w2(3,ES[i]);wc(58);ws(s))_f(wu,i0 d[16]
 #define it i2 t
 #define Ur i3 r
 #define Ua i3 a
+#define Uf i3 f
 #define Ux i3 x
 #define Ub i3 b
 #define Uu i3 u
@@ -178,6 +188,7 @@ Z0*ES[]={"nyi","rnk","len","typ"};is(err,w2(3,ES[i]);wc(58);ws(s))_f(wu,i0 d[16]
 #define Ec e6 c
 #define Ib i6 b
 #define Ez e6 z
+#define Gz g6 z
 #define Iz i6 z
 #define Sz s6 z
 #define Ix ((i6)X_)
@@ -198,6 +209,7 @@ Z0*ES[]={"nyi","rnk","len","typ"};is(err,w2(3,ES[i]);wc(58);ws(s))_f(wu,i0 d[16]
 #define aV x(a,xV)
 #define rV x(r,xV)
 #define QZ _(Qz(1)0)
+#define ai a[i]
 #define Ri R[i]
 #define Ai A[i]
 #define Xi X[i]
@@ -210,8 +222,6 @@ Z0*ES[]={"nyi","rnk","len","typ"};is(err,w2(3,ES[i]);wc(58);ws(s))_f(wu,i0 d[16]
 #define Qr(b) Qi(b,1)
 #define Qn(b) Qi(b,2)
 #define Qt(b) Qi(b,3)
-#define n3(z) (7+(z)>>3)
-#define n5(z) (31+(z)>>5)
 #define n4(z) (15+(z)>>4)
 #define n5(z) (31+(z)>>5)
 #define n6(z) (63+(z)>>6)
@@ -220,4 +230,5 @@ Z0*ES[]={"nyi","rnk","len","typ"};is(err,w2(3,ES[i]);wc(58);ws(s))_f(wu,i0 d[16]
 #define $4(z,a,b,c,d)     ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):_(d);})
 #define $5(z,a,b,c,d,e)   ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):_(e);})
 #define $6(z,a,b,c,d,e,f) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):_(f);})
-#define p6(a,b,c,d,e,f) (a+x*(b+x*(c+x*(d+x*(e+x*f))))) //unroll4?
+#define $7(z,a,b,c,d,e,f,g) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):_(g);})
+#define p6(a,b,c,d,e,f) (a+x*(b+x*(c+x*(d+x*(e+x*f)))))

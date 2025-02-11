@@ -1,2 +1,2 @@
 a:?.[ch] makefile
-	clang-13 -Ofast -oa ?.c -lm -funsigned-char -fno-unwind-tables -w -mavx512f -mavx512dq -mavx512vbmi
+	clang-13 -Ofast -ok ?.c -nostdlib -s -w -funsigned-char -fno-unwind-tables -mavx512f -mavx512dq -mavx512vbmi

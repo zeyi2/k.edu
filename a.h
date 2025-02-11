@@ -5,7 +5,7 @@ Ef(_q,o(sqrtps)(x,4))Is(g2,bu(ia32_gathersiv16si)(z0,s,x,-1,4))Is(g0,bu(ia32_gat
 UV(b0,o(cvtb2mask)(x))UV(b2,o(cvtd2mask)(x))_U(c2,bu(ia32_compressstoresi512_mask)(s,x,h);nu(h),ss,hh,Vx)VF(LG,o(pminub)(a,x))VF(LI,o(pminud)(a,x))VF(MG,o(pmaxub)(a,x))VF(MI,o(pmaxud)(a,x))
 extern i0*H;Z0 _[1<<30];Z2 D[]={3,0,2,2,3,0,0,3},O[256],o,W;ZU C[24],T1=t(1,0);_U(om,i(24,C[i]=(U)_+(64<<i))i(256,O[i]=i+1)0)VF(SG,a+x)VF(SI,(i6)a+x)
 _D(j6,AB,ZJ A={-1};ZJ B={0xc6a4a7935bd1e995};Z2 a;if(!a){i(a=8,A[i]=AB()[0])i(1e4,AB())}A^=B;B=(A<<55|A>>9)^B^B<<14;B=B<<37|B>>27;A+B)VG(R0,$3(i,P0(x,I0-1,a),P0(x,I0-2,a),R2(i-2,a,x)))
-_X(_6,J(n,X_=z0))AX(m6,J(n,A_=X_))_Z(m9,cc=63&(U)d;VA=d-c;Va=c>I0&*A;m6(c+n,A,s-c);*A=a|c<=I0&*A,in,sd,ss)
+_Z(_6,J(n,X_=z0),in,VX)AX(m6,J(n,A_=X_))_Z(m9,cc=63&(U)d;VA=d-c;Va=c>I0&*A;m6(c+n,A,s-c);*A=a|c<=I0&*A,in,sd,ss)
 _g(p,cc=Nx%64;if(c)$(i,xV[Nx>>6]|=I0>=c)xV[Nx>>6]&=I0<c;x)Ef(Se,i(4,x+=R2(i,z0,x))x)_e(eE,Se(r(ze,n=n4(n);Ez[4]={};i(n/4,i(4,zi+=A_*X_))i(4,r+=zi)i(n%4,r+=A_*X_)))[15],in,EA,EX)
 Ef(l_,Sz=x;x=127<<23|(1<<23)-1&z;C(e6,(z>>23)-127)+(x-1)*p6(3.1157899f,-3.324199f,2.5988452f,-1.2315303f,.31821337f,-.034436006f))
 Ef(_l,Ez=C(e6,C(s6,x-.5));x-=z;(1.f+z)*p6(.99999994f,.69315308f,.24015361f,.055826318f,.0089893397f,.0018775767f))
@@ -19,12 +19,3 @@ g(o3,p(!i,x);_x(t(tx,$7(2>i?2*i+l(2,tx)-1:3+tx,l0,l2,m0,m2,s0,s2,se)(nx,sx))))g(
 _D(i2,lm,p(1,x);i6 L=z2-1;i6 M=z2;IX=sx;Iz;J(Nx,L=LI(L,z=Ix);M=MI(M,j<nx/16?z:z&nx%16>I))im=Mi(M)[15];OO(m>>31)1+m-(*a=Li(L)[15]),i2*a,Ux)
 _Z(VM,i(l/4,Ez[4]={};h(m,i(4,zi+=A[h]*X[n*h+i]))X+=4;i(4,R_=zi))i(l%4,R_=r(ze,i(m,r+=Ai*X[n*i])++X)),il,im,in,VR,eA,EX)ZU b;
 _Z(SM,i(l/4,Ez[4]={};h(m,i(4,zi+=A[n*h+i]*X[n*h+i]))A+=4;X+=4;i(4,R_=zi))i(l%4,R_=r(ze,i(m,r+=A[n*i]*X[n*i])++A;++X)),il,im,in,VR,EB,EA,EX)
-
-/*
-AS(P8,"mov $56,%rax;syscall;test%rax,%rax;jz L;ret;L:pop%rdi;call _p;",Ua,ss)_Z(PA,bu(ia32_pause)())
-#define A(g,m0,n0,y) _Z(_##g,ih=i*n/N;i=(i+1)*n/N;y,ii)D(U,g,a=a0;x=x0;r=tn(tx,m0);n=n0;p_(_##g);r,U a0,U x0)//$(2>N|2>n|4000>(c)*n,..)p_(_##g)
-Z2 n,N;ZU r,a,x;Z_ volatile P[96*8];AT(used)Z_ _p(ii){W(1){W(!Pi)PA();Pi(i);Pi=0;}}_Z(p_,if(!*P)i(4,$(i,U*x=Z[i];*--x=i;P8(0x100,x))*P=c)i(N=l(4,n),if(i)Pi=c)c(0);i(N,if(i)W(Pi)PA()),UF c)
-A(mv,ma,ma,W(i-->h)re[i]=eE(nx,a2+nx*i,sx))A(vm,vx,nr/16,in=nr/16;VM(i-h,mx,n,rV+h,sa,xV+h))A(mm,ma*vx,ma,in=vx/16;W(i-->h)VM(n,mx,n,rV+n*i,ae+mx*i,sx))
-A(kv,vx,nr/16,in=nr/16;SM(i-h,mx,n,rV+h,x(b,xV)+h,aV+h,xV+h))_F(S,Qn(va-ux)EE __((ma?mx?mm:mv:mx?vm:vv)(a,p(0,x))))
-U_(K,Qr(af|mf|aa|!ma|ax|!mx)Qn(nf-va|na-nx)b=f;r(__(kv(a,x)),_r(f)),Uf,Ua,Ux)
-*/

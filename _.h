@@ -2,8 +2,7 @@
 #define mf x(f,mx)
 #define nf x(f,nx)
 #define __(z) _a(_x(z))
-#define Pi _P[8*i]
-#define _X(g,z) _Z(g,z,in,VX)
+#define Pi _P[8*i] //#define _X(g,z) _Z(g,z,in,VX)
 #define AX(g,z) _Z(g,z,in,EA,EX)
 #define EB e6*B
 #define N4(z) i(n4(n),z)

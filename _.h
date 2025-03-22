@@ -29,7 +29,6 @@
 #define VX g6*X
 #define A_ *A++
 #define X_ *X++
-#define ZI static i6
 #define Ib i6 b
 #define Z_(g,z) void g(){z;}
 #define UV(g,z) _U(g,z,Vx)
@@ -38,13 +37,15 @@
 #define VG(g,z) _V(g,z,ii,Va,Vx)
 #define I2 ((i6){0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15})
 #define _R(t,n,z) _x(R(t,n,z))
-#define _X(z)     _x(R(tx,nx,z))
+#define _X(t,z)   _x(R(tx,nx,t##R=sr;z))
 #define RU(n,z)   _x(R(0,n,UR=sr;i(nr,R_=_(z))))
 #define RV(t,n,z)    R(t,n,VR=sr;I(Nr,R_=_(z)))
 #define X(z) r(uz(x),VX=sx;VR=sr;I(Nr,R_=_(z)))
 #define V3(g,z) _V(g,z,Va,Vb,Vx)
-U m_(U*,ss),_m(U,U);typedef i0 g4 V_(4);typedef i2 i5 V_(5);typedef e2 e5 V_(5);typedef int s6 V_(6);_Z(M6,i(n6(n),A_=X_),in,VA,VX)_D(j6,RJ,x<<i|x>>64-i,ii,j6 x)
-ZI z2;ZE ze;ZJ I3={0,1,2,3,4,5,6,7};
+U m_(U*,ss),_m(U,U);
+ZI BA=I2+1-I2%2*2;
+ZJ I3={0,1,2,3,4,5,6,7};
+typedef i0 g4 V_(4);typedef i2 i5 V_(5);typedef e2 e5 V_(5);typedef int s6 V_(6);_Z(M6,i(n6(n),A_=X_),in,VA,VX)_D(j6,RJ,x<<i|x>>64-i,ii,j6 x)
 #define IF(g,z) _D(i6,g,z,i6 a,i6 x)
 #if 14>__clang_major__
 VF(LG,o(pminub512)(a,x))VF(MG,o(pmaxub512)(a,x))VF(LI,o(pminud512)(a,x))VF(MI,o(pmaxud512)(a,x))VF(LE,o(minps512)(a,x,4))VF(ME,o(maxps512)(a,x,4))
@@ -127,6 +128,6 @@ VF(LG,B(elementwise_min)(a,x))VF(MG,B(elementwise_max)(a,x))IF(LI,B(elementwise_
 #define n4(z) (15+(z)>>4)
 #define $6(z,a,b,c,d,e,f) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):_(f);})
 #define $7(z,a,b,c,d,e,f,g) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):_(g);})
-#define $b(z,a,b,c,d,e,f,g,h,i,j,k) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):7==$?_(h):8==$?_(i):9==$?_(j):_(h);})
+#define $a(z,a,b,c,d,e,f,g,h,i,j) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):7==$?_(h):8==$?_(i):_(j);})
 #define p6(a,b,c,d,e,f) ((e2)a+x*((e2)b+x*((e2)c+x*((e2)d+x*((e2)e+x*(e2)f)))))
 #define inx(g,z) _U(g,z,ii,in,Ux)

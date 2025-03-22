@@ -1,34 +1,38 @@
 #define ax !(x>>63)
 #define tx (7&x>>60)
 #define Mx (1L<<32)
-#define ZV static g6
 #define V_(n) __attribute((vector_size(1<<n),aligned(1)))//ABCDEFGHIJKLMNOPQRSTUVWXYZ
-typedef unsigned long U,j6 V_(6);typedef char i0,g6 V_(6);typedef unsigned short i1;typedef unsigned i2,i6 V_(6);typedef float e2,e6 V_(6);ZV 
-z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
-#define oo w_(3,"oo\n")
-#define ii i2 i
-#define in i2 n
-#define ee e2 e
-#define ss i0*s
-#define ix (i2)x
-#define sr x(r,sx)
-#define tr x(r,tx)
+typedef unsigned long U,j6 V_(6);typedef char i0,g6 V_(6);typedef unsigned short i1;typedef unsigned i2,i6 V_(6);typedef float e2,e6 V_(6);
+#define Z2 static i2
 #define ZU static U
+#define ZI static i6
+#define ZE static e6
+#define ZJ static j6
+#define ZV static g6
+#define ss i0*s
+U k(i2,U,U),tn(i2,U),w_(i2,ss);void exit(i2);ZU _r(U),r_(U);ZI z2;ZJ z3;ZE ze;ZV 
+z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
 #define _(z) ({z;})
+#define W(z) while(_(z))
 #define r(b,z) ({typeof(b)r=b;z;r;})
 #define i(b,z) {i2 $=b;i2 i=0;while(i<$){z;++i;}}
 #define t(t,z) ((U)(t)<<60|(z))
 #define bu(o) __builtin_##o
-#define W(z) while(_(z))
 #define _D(t,g,z,x...) static t g(x){return({z;});}
 #define _e(g,z,x...) _D(e2,g,z,x)
 #define _U(g,z,x...) _D(U,g,z,x)
+#define _f(g,z) _U(g,z,Ux)
 #define Ui(g,z) _U(g,z,ii)
-#define _f(g,z) _U(g,z,U x)
-U k(i2,U,U),tn(i2,U),w_(ii,ss);void exit(i2);ZU _r(U),r_(U);_f(nu,bu(popcountl)(x))_f(iu,x?bu(ctzl)(x):64)_f(lu,--x?64-bu(clzl)(x):0)_e(ei,*(e2*)&i,ii)
-_f(iz,3>tx?ix:(i2)ei(ix))Ui(ti,t(2,i))_U(te,t(3,*(i2*)&e),ee)Ui(L_,r(0,W(i/=10)++r))
-Ui(wi,i0 d[12];d[11]=10;i0*s=d+11;in=i>>31?-i:i;do*--s=48+n%10;W(n/=10);if(i>>31)*--s=45;w_(d+12-s,s);i)
-_f(wu,i0 d[17];d[16]=10;i(16,in=15&x>>60-4*i;d[i]="0W"[9<n]+n)w_(17,d);x)
+#define ii i2 i
+#define in i2 n
+#define ee e2 e
+#define ix (i2)x
+#define jx (b(60)&x)
+#define sr x(r,sx)
+#define tr x(r,tx)
+#define Ux U x
+_f(nu,bu(popcountl)(x))_f(iu,x?bu(ctzl)(x):64)_f(lu,--x?64-bu(clzl)(x):0)_e(ei,*(e2*)&i,ii)_f(iz,3>tx?ix:(i2)ei(ix))Ui(ti,t(2,i))_U(te,t(3,*(i2*)&e),ee)Ui(L_,r(0,W(i/=10)++r))
+Ui(wi,i0 d[12];d[11]=10;i0*s=d+11;in=i>>31?-i:i;do*--s=48+n%10;W(n/=10);if(i>>31)*--s=45;w_(d+12-s,s);i)_f(wu,i0 d[17];d[16]=10;i(16,in=15&x>>60-4*i;d[i]="0W"[9<n]+n)w_(17,d);x)
 #define _F(g,z) _U(g,z,Ua,Ux)
 #define is(g,z) _U(g,z,ii,ss)
 #define $(b,z) if(b){z;}else
@@ -38,7 +42,6 @@ _f(wu,i0 d[17];d[16]=10;i(16,in=15&x>>60-4*i;d[i]="0W"[9<n]+n)w_(17,d);x)
 #define ij i2 j
 #define Ua U a
 #define Ub U b
-#define Ux U x
 #define px (t(1,0)>x)
 #define mx (Mx&x)
 #define nx (i2)x
@@ -53,13 +56,9 @@ _f(wu,i0 d[17];d[16]=10;i(16,in=15&x>>60-4*i;d[i]="0W"[9<n]+n)w_(17,d);x)
 #define zi z[i]
 #define Ci C[i]
 #define x2 ((i2*)sx)
-#define x3 ((U*)sx)
-
 #define xV ((g6*)sx)
 #define a2 x(a,x2)
 #define r2 x(r,x2)
-#define r3 x(r,x3)
-
 #define rV x(r,xV)
 #define cc i0 c
 #define ik i2 k
@@ -77,9 +76,6 @@ _f(wu,i0 d[17];d[16]=10;i(16,in=15&x>>60-4*i;d[i]="0W"[9<n]+n)w_(17,d);x)
 #define Vc g6 c
 #define VR g6*R
 #define Jz j6 z
-#define Z2 static i2
-#define ZJ static j6
-#define ZE static e6
 #define _a(z...) _(typeof(_(z))z9=_(z);_r(a);z9)
 #define _x(z...) _(typeof(_(z))z9=_(z);_r(x);z9)
 #define l(a,z) _(typeof(z)$=z;(a)<$?(a):$)
@@ -105,3 +101,4 @@ _f(wu,i0 d[17];d[16]=10;i(16,in=15&x>>60-4*i;d[i]="0W"[9<n]+n)w_(17,d);x)
 #define $5(z,a,b,c,d,e)   ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):_(e);})
 #define $9(z,a,b,c,d,e,f,g,h,i) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):7==$?_(h):_(i);})
 #define xe ((e2*)sx)[i]
+#define oo w_(3,"oo\n")

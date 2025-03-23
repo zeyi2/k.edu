@@ -1,3 +1,4 @@
+#define $b(g,i,j) (2<bx?_(j):bx?_(i):_(g))
 #define ox (b(17)&x>>38)
 #define ux (mx?Ox>>47:nx)    
 #define sx ((i0*)(b(41)<<6&Ox))
@@ -43,15 +44,10 @@
 #define X(z) r(uz(x),VX=sx;VR=sr;I(Nr,R_=_(z)))
 #define V3(g,z) _V(g,z,Va,Vb,Vx)
 U m_(U*,ss),_m(U,U);
-ZI BA=I2+1-I2%2*2;
+ZI BA=I2+1-I2%2*2,AB=I2%2-1;
 ZJ I3={0,1,2,3,4,5,6,7};
 typedef i0 g4 V_(4);typedef i2 i5 V_(5);typedef e2 e5 V_(5);typedef int s6 V_(6);_Z(M6,i(n6(n),A_=X_),in,VA,VX)_D(j6,RJ,x<<i|x>>64-i,ii,j6 x)
 #define IF(g,z) _D(i6,g,z,i6 a,i6 x)
-#if 14>__clang_major__
-VF(LG,o(pminub512)(a,x))VF(MG,o(pmaxub512)(a,x))VF(LI,o(pminud512)(a,x))VF(MI,o(pmaxud512)(a,x))VF(LE,o(minps512)(a,x,4))VF(ME,o(maxps512)(a,x,4))
-#else
-VF(LG,B(elementwise_min)(a,x))VF(MG,B(elementwise_max)(a,x))IF(LI,B(elementwise_min)(a,x))IF(MI,B(elementwise_max)(a,x))EF(LE,B(elementwise_min)(a,x))EF(ME,B(elementwise_max)(a,x))
-#endif
 #define C(t,z) bu(convertvector)(z,t)
 #define g(g,z) D(U,g,z,ii,Ux)
 #define F(g,z) D(U,g,z,Ua,Ux)
@@ -131,3 +127,8 @@ VF(LG,B(elementwise_min)(a,x))VF(MG,B(elementwise_max)(a,x))IF(LI,B(elementwise_
 #define $a(z,a,b,c,d,e,f,g,h,i,j) ({i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):7==$?_(h):8==$?_(i):_(j);})
 #define p6(a,b,c,d,e,f) ((e2)a+x*((e2)b+x*((e2)c+x*((e2)d+x*((e2)e+x*(e2)f)))))
 #define inx(g,z) _U(g,z,ii,in,Ux)
+#if 14>__clang_major__
+VF(LG,bu(ia32_pminub512)(a,x))VF(LI,bu(ia32_pminud512)(a,x))VF(LE,bu(ia32_minps512)(a,x,4))VF(MG,bu(ia32_pmaxub512)(a,x))VF(MI,bu(ia32_pmaxud512)(a,x))VF(ME,bu(ia32_maxps512)(a,x,4))
+#else
+VF(LG,bu(elementwise_min)(a,x))VF(MG,bu(elementwise_max)(a,x))IF(LI,bu(elementwise_min)(a,x))IF(MI,bu(elementwise_max)(a,x))EF(LE,bu(elementwise_min)(a,x))EF(ME,bu(elementwise_max)(a,x))
+#endif

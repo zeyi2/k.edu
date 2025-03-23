@@ -24,4 +24,4 @@ f(wx,if(x&&B-x)px?wd(B>G[px]?_(ss=F[x];i(*s,ij=s[i+2];d[i]=B>j?48:96>j?P[j-B]:j)
 //repl
 ZU zs(ii,ss);e2 t;is(ts,if(92-*s)p(0,s);Ua=t*_t()+6*i;i(i,Q(_r(92-*s?q(0):zs(0,s))))_p(0);ti(.5+(t*_t()-a)/1e6))is(w,s[i=i?:ic(0,s)]=0;i&&47-*s?wx((92-*s?qs:zs)(i,s)):B)
 is(zs,$4(ib(*++s,"\\lt"),_k(0),ls(s+2),++s;s[i=ic(B,s)]=0;ts(i?iz(qs(i,s)):1,s+i+1),P('w'==*s,ku(0,0))s=d;j(27,Ux=G[j];*s=96+j;s+=x&&i^px)ns(s-d,d)))
-int main(int i,i0**_){t=1e9/t_();k_(M_(1L<<32,1l<<36,3,O?0x1052:0x4032,0,0));if(s)w(0,s);$(s=*++_,P(46-s[ic(0,s)-2],w(0,s))ls(s))ws(D);W(i=_w(wc(B),d,256))if(--i)w(i,d);}
+int main(int i,i0**_){k_();t=1e9/t_();if(s)w(0,s);$(s=*++_,P(46-s[ic(0,s)-2],w(0,s))ls(s))ws(D);W(i=_w(wc(B),d,256))if(--i)w(i,d);}

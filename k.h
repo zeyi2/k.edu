@@ -10,7 +10,7 @@ typedef unsigned long U,j6 V_(6);typedef char i0,g6 V_(6);typedef unsigned short
 #define ZJ static j6
 #define ZV static g6
 #define ss i0*s
-U k(i2,U,U),tn(i2,U),w_(i2,ss);void exit(i2);ZU _r(U),r_(U);ZI z2;ZJ z3;ZE ze;ZV 
+void exit(i2);ZU _r(U),r_(U);ZI z2;ZJ z3;ZE ze;ZV 
 z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
 #define _(z) ({z;})
 #define W(z) while(_(z))
@@ -31,14 +31,15 @@ z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27
 #define sr x(r,sx)
 #define tr x(r,tx)
 #define Ux U x
+#define sd i0*d
+#define is(g,z) _U(g,z,ii,ss)
+U k(i2,U,U),tn(i2,U),w_(i2,ss);Ui(wc,w_(1,&i);0)is(wl,w_(i,s);wc(10))is(ic,sd=s;W(i!=*s)++s;s-d)_U(ws,wl(ic(0,s),s),ss)
 _f(nu,bu(popcountl)(x))_f(iu,x?bu(ctzl)(x):64)_f(lu,--x?64-bu(clzl)(x):0)_e(ei,*(e2*)&i,ii)_f(iz,3>tx?ix:(i2)ei(ix))Ui(ti,t(2,i))_U(te,t(3,*(i2*)&e),ee)Ui(L_,r(0,W(i/=10)++r))
 Ui(wi,i0 d[12];d[11]=10;i0*s=d+11;in=i>>31?-i:i;do*--s=48+n%10;W(n/=10);if(i>>31)*--s=45;w_(d+12-s,s);i)_f(wu,i0 d[17];d[16]=10;i(16,in=15&x>>60-4*i;d[i]="0W"[9<n]+n)w_(17,d);x)
 #define _F(g,z) _U(g,z,Ua,Ux)
-#define is(g,z) _U(g,z,ii,ss)
 #define $(b,z) if(b){z;}else
 #define b(i) ((1L<<(i))-1)
 #define Z0 static i0
-#define sd i0*d
 #define ij i2 j
 #define Ua U a
 #define Ub U b
@@ -91,7 +92,6 @@ Ui(wi,i0 d[12];d[11]=10;i0*s=d+11;in=i>>31?-i:i;do*--s=48+n%10;W(n/=10);if(i>>31
 #define U_(g,z,x...) U g(x){return _(z);}
 #define n6(n) (63+(n)>>6)
 #define E1 (127<<23)
-#define o(o) bu(ia32_##o)
 #define h(b,z) {i2 $=b;i2 h=0;while(h<$){z;++h;}}
 #define j(b,z) {i2 $=b;i2 j=0;while(j<$){z;++j;}}
 #define _Z(g,z,x...) static void g(x){z;}

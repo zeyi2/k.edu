@@ -1,5 +1,5 @@
 #include"a.b"//thmas*on uar[.gi..efs]
-ZU O[1<<16],z[30];Z2 b[]={3,0,2,0,0,2,3,3},o,w;f(_u,Ox&=b(47);~MF&x)F(u_,Ox|=a<<47;MF|x)U(om,i(30,zi=(1L<<32)+(64L<<i))i(1<<16,O[i]=i+1)0)U m_(U*,ss),_m(U,ss);
+ZU O[1<<16],z[30];Z2 b[]={3,0,2,0,0,2,3,3},o,w;f(_u,Ox&=b(47);~MF&x)F(u_,Ox|=a<<47;MF|x)U(om,i(30,zi=(1L<<32)+(64L<<i))i(1<<16,O[i]=i+1)0)U m_(U*,ss),_m(U,ss),_k(U);
 g(_M,w-=1<<i;*(U*)x=zi;zi=x)Ui(M_,Ux=zi;P(x,w+=1<<i;zi=*(U*)x;x)OO(i>28)_M(i,M_(i+1))+(64L<<i))f(_o,qx?_M(hx,(U)sx):_m(nx,sx);Ox=o;o=ox;x)G(o_,Ub=o;o=O[o];O[b]=a;t(8+i,b<<32|x))
 f(_r,63&Ox?(--Ox,x):_o(x))f(r_,OO(!(63&++Ox))x)g(bn,x<<=b[i];64>x?0:lu(x)-6)g(tn,Ua=bn(i,x);a<<55|o_(i,M_(a),x))g(p,cc=Nx%64;if(c)$(i,xV[Nx>>6]|=I0>=c)xV[Nx>>6]&=I0<c;x)
 #include"v.c"//atom +-*%&|<>=~!@?[+-*%~_].RE

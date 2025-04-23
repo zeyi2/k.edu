@@ -1,22 +1,6 @@
-#define pa x(a,px)
-#define ia x(a,ix)
-#define ea x(a,ex)
-#define ua x(a,ux)
-#define ma x(a,mx)
-#define va x(a,vx)
-#define hx (31&x>>55)
-#define ox (h1)(x>>32)
-#define Ox O[ox]
-#define u3 nx,sr,sx
-#define u5 sa,ux,n,sr,sx
-#define Na x(a,Nx)
-#define Nr x(r,Nx)
-#define sx ((g0*)(b(41)<<6&Ox))
-#define qx (1l<<36>(U)sx-(1l<<32))
-#define bx b[tx]
-#define Nx (nx<<b[tx])
 #define ux (mx?Ox>>47:nx)    
-#include"_.b"
+#define sx ((g0*)(b(41)<<6&Ox))
+#include"a.a"
 #define F(g,z) U(g,z,Ua,Ux)
 #define G(g,z) U(g,z,ii,Ua,Ux)
 #define Y(t,z) _x(R(t,nx,r=mx?u_(ux,r):r;z)) 
@@ -30,8 +14,8 @@
 #define Qt(b) Qi(b,3)
 #define g_(g,z) U g(ii,Ux){return({z;});}
 #define G_(g,z) U g(ii,Ua,Ux){return({z;});}
-#define inx(g,z) U(g,z,ii,in,Ux)
 #define $6(z,a,b,c,d,e,f)     _(i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):_(f))
 #define $7(z,a,b,c,d,e,f,g)   _(i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):_(g))
 #define $8(z,a,b,c,d,e,f,g,h) _(i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):_(h))
 #define $b(z,a,b,c,d,e,f,g,h,i,j,k) _(i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):7==$?_(h):8==$?_(i):9==$?_(j):_(k))
+#define inx(g,z) U(g,z,ii,in,Ux)

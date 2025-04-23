@@ -1,22 +1,9 @@
+#define ex (*(e2*)&x)
+#define tx (7&x>>60)
 #define V6 __attribute((vector_size(1<<6),aligned(1)))
 typedef unsigned long U,j3,j6 V6;typedef char g0,g6 V6;typedef unsigned short h1;typedef unsigned i2,i6 V6;typedef float e2,e6 V6;typedef int s6 V6;static g6 
 z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
-#define MF (1l<<54)
-#define px (t(1,0)>x)
-#define ax !(x>>63)
-#define ex (*(e2*)&x)
-#define tx (7&x>>60)
-#define ix (i2)x
-#define nx (i2)x
-#define jx (b(60)&x)
-#define mx (MF&x)
-#define vx (mx?nx/ux:nx)
-#define xu ((i2*)sx)
-#define xU ((U*)sx)
-#define xV ((g6*)sx)
-#define rV ((g6*)sr)
 #define E1 (127<<23)
-#define oo ws("oo")
 #define cc g0 c
 #define ee e2 e
 #define ih i2 h
@@ -29,23 +16,14 @@ z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27
 #define it i2 t
 #define ss g0*s
 #define sd g0*d
-#define Vd *(g6*)d
-#define Vs *(g6*)s
-#define Ux U x
 #define Uf U f
 #define Ua U a
 #define Ub U b
+#define Ux U x
 #define zi z[i]
 #define Ai A[i]
-#define VR g6*R
-#define Va g6 a
-#define Vb g6 b
-#define Vx g6 x
 #define ZU static U
 #define Z0 static g0
 #define Z2 static i2
-#define ta x(a,tx)
-#define sa x(a,sx)
-#define na x(a,nx)
-#define aa x(a,ax)
-#define sr x(r,sx)
+#define Vd *(g6*)d
+#define Vs *(g6*)s

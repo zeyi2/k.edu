@@ -1,6 +1,6 @@
 #define ux k_(3,x)
 #define sx ((g0*)k_(2,x))
-#include"_.b"
+#include"a.a"
 static e2 t,E9[]={1,10,1e2,1e3,1e4,1e5,1e6,1e7,1e8,1e9};Z0 B=32,d[256];is(i$,i&&48>*s?-i$(i-1,s+1):r(0,i(i,r=10*r+s[i]-48)))
 #define AS(f,s,x...) ZU __attribute((naked))f(x){asm(s"ret");}
 #if linux

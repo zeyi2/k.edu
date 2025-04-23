@@ -1,5 +1,5 @@
-#include"z.b"//eval v+:(i=v(*s)?*s--:0;ik=3==s[-1]?*--s%B:0;U*_=G+*s--%B;r_(*_=i?y(i%B,*_,x):(_r(*_),x))) 
-ss="2.5e3";
+#include"z.h"//eval v+:(i=v(*s)?*s--:0;ik=3==s[-1]?*--s%B:0;U*_=G+*s--%B;r_(*_=i?y(i%B,*_,x):(_r(*_),x))) 
+ss;
 Z0*P=":+-*%&|<>=~!@?#_^,.$RENLMS___'/\\()",*E=" nyi rnk len typ",F[27][256];ZU*A,C[27][32],G[26],e(U),w(ii,ss),p(ii,ss);g(S,_r(Gi);Gi=x;B)Ui(v,33>i-B)Ui(c,A=Ci;s=Fi+*Fi;e(0))
 g(fx,U*a=A;sd=s;Ub=G[23];r(c(i),S(23,b);s=d;A=a))H(z,OO(aa)Ub[na];i(na,bi=Gi;Gi=ta?k(12,r_(a),ti(i)):aj)x=fx(f,x);i(na,Gi=bi)x)H(Z,OO(ta)i(na,Q(x=z(f,aj,x)))x)
 H(y,12==f&&9>a-1?fx(a,x):4>(x=pf?k(f,a,x):0)?(E[x*=4]=P[f],wl(4,E+x)):x)U(n,ii=*s--;65==i?e(0):r_(B>i?Ai:G[i-97]?:wl(1,&i)))U(N,Ux=Q(n());W(!v(*s))x=Q(y(12,Q(n()),x));x)

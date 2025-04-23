@@ -1,5 +1,3 @@
-#define ih i2 h
-#define ik i2 k
 #define pa x(a,px)
 #define ia x(a,ix)
 #define ea x(a,ex)
@@ -7,24 +5,22 @@
 #define ma x(a,mx)
 #define va x(a,vx)
 #define hx (31&x>>55)
-#define ox (i1)(x>>32)
+#define ox (h1)(x>>32)
 #define Ox O[ox]
 #define u3 nx,sr,sx
 #define u5 sa,ux,n,sr,sx
 #define Na x(a,Nx)
 #define Nr x(r,Nx)
-#define sx ((i0*)(b(41)<<6&Ox))
+#define sx ((g0*)(b(41)<<6&Ox))
 #define qx (1l<<36>(U)sx-(1l<<32))
 #define bx b[tx]
 #define Nx (nx<<b[tx])
 #define ux (mx?Ox>>47:nx)    
-#include"_.a"
-#define Vn(t,n) t##n __attribute((vector_size(1<<n),aligned(1)))
-#include"v.c"
+#include"_.b"
 #define F(g,z) U(g,z,Ua,Ux)
 #define G(g,z) U(g,z,ii,Ua,Ux)
 #define Y(t,z) _x(R(t,nx,r=mx?u_(ux,r):r;z)) 
-#define X(z) Y(tx,z)//!qx|63&Ox but not reverse!
+#define X(z) Y(tx,z) //!qx|63&Ox but not reverse!
 #define R(t,n,z) r(tn(t,n),z)
 #define bc(q,z) _(q##2 b=q##a;q##2 c=q##x;t##q(z))
 #define Qi(b,i) if(b)return i;

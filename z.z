@@ -13,11 +13,11 @@ t:1e9%#e:^#i:_n*?n:4e3
 t:1e6;v:,s:5
 \tt 1<2*3+4*-s
 \tt 1<2*3+4*-v
-t:1e9%#c:4e7#b:4e6#a:4e5#"a"
+t:1e9%#c:1e7#b:1e6#a:1e5#012
 \t1e3t Ma
 \t1e2t Mb
-
 \t1e1t Mc
+
 \\
 /\tt ei
 4GHZ ns/n cy/b inference(2.2:1) db(1:1 10:1) l1/400 l2/200 l3/50 l4/40

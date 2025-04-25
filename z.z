@@ -1,18 +1,18 @@
-t:1e9%*n:#v:@m:0.+&256
-\tn?t mm
-\tt mv
-\tt vm
 t:1e9%#e:^#i:_n*?n:4e3
 \t10t Se
-\t10t -e
 \t10t _e
+\t10t *e
 \tt %e
 \tt +\i
 \tt Ee
 \tt ei
 t:1e6;v:,s:5
-\tt 1<2*3+4*-s
-\tt 1<2*3+4*-v
+\tt 1<2*3+4**s
+\tt 1<2*3+4**v
+t:1e9%*n:#v:@m:0.+&256
+\tn?t mm
+\tt mv
+\tt vm
 t:1e9%#c:1e7#b:1e6#a:1e5#012
 \t1e3t Ma
 \t1e2t Mb

@@ -1,7 +1,15 @@
 #include"a.a"
+#define F(g,z) U(g,z,Ua,Ux)
+#define G(g,z) U(g,z,ii,Ua,Ux)
+#define hx ( 31&x>>54)
+#define ox (255&x>>32)
+#define qx (1l<<36>(U)sx-(1l<<32))
+#define bx b[tx]
+#define Ox O[ox]
+#define Nx (nx<<b[tx])
 #define ux (mx?Ox>>47:nx)
 #define sx ((i0*)(b(41)<<6&Ox))
-#define R(t,n,z) r(tn(t,n),z)
+#define R(t,n,z) r(o_(t,n),z)
 #define Y(t,z) _x(R(t,nx,r=mx?u_(ux,r):r;z)) 
 #define X(z) Y(tx,z) //!qx|63&Ox but not reverse!
 #define Qi(b,i) if(b)return i;
@@ -9,11 +17,14 @@
 #define Qr(b) Qi(b,1)
 #define Qn(b) Qi(b,2)
 #define Qt(b) Qi(b,3)
-#define g_(g,z) U g(ii,Ux){return({z;});}
-#define G_(g,z) U g(ii,Ua,Ux){return({z;});}
-#define inx(g,z) U(g,z,ii,in,Ux)
-#define U2 in,IX
-#define U3 in,IR,IX
-#define u2 nx,sx
-#define u3 nx,sr,sx
-#define u5 sa,ua,n,sr,sx
+#define bn(t,n) (lu(m(64,(U)n<<b[t]))-6)
+#define bc(q,z) _(q##2 b=q##a;q##2 c=q##x;t##q(z))
+#define sa x(a,sx)
+#define pa x(a,px)
+#define ia x(a,ix)
+#define ea x(a,ex)
+#define ua x(a,ux)
+#define ma x(a,mx)
+#define va x(a,vx)
+#define Na x(a,Nx)
+#define Nr x(r,Nx)

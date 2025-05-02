@@ -1,7 +1,7 @@
 #define ux (mx?Ox>>47:nx)
 #define sx ((i0*)(b(41)<<6&Ox))
 #define u nx,sr,sx
-#define R(t,n,z) r(o_(t,n),z)
+#define R(t,n,z) r(tn(t,n),z)
 #define Y(t,z) _x(R(t,nx,r=mx?u_(ux,r):r;z)) 
 #define X(z) Y(tx,z) //!qx|63&ox?Y(tx,z):r(x,z)
 #include"a.a"

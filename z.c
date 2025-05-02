@@ -1,5 +1,5 @@
 #include"z.b"//eval k_()
-ss;//="+\\2 3";//0+&5";
+ss;//="%2 3";//="_m@v:0.+@m:&64";//mm";//+\\2 3";//0+&5";
 Z0*P=":+-*%&|<>=~!@?#_^,.$RENLMS___'/\\()",_P[]="+-*%&|<>=~ !@? #_^, $RES\n+-*%~_ &|<>=^? #!@, $RESM\n",Y[16]=" nyi rnk len typ",F[27][256];ZU*A,C[27][32],G[26],e(U),wx(U),a(ii,ss);
 g(S,_r(Gi);Gi=x;B)Ui(v,33>i-B)U(vf,s=d;i(26,*s=97+i;s+=!!Gi)ns(s-d,d))Ui(c,A=Ci;s=Fi+*Fi;v(*s)?*s---B:e(0))
 g(fx,U*a=A;sd=s;Ub=G[23];r(c(i),S(23,x);s=d;A=a))H(z,Q(ta)Ub[na];i(na,bi=Gi;Gi=aj)x=fx(f,x);i(na,Gi=bi)x)H(Z,Q(ta)i(na,Y(x=z(f,aj,x)))x)

@@ -1,4 +1,8 @@
 #include"a.b"
+#define r4(z) i(n4(n),Ri=z)
+#define R2(g,z,x...) V(g,r4(z),x)
+#define R0(g,z,x...) V(g,i(n6(n),Ri=z),x)
+
 #define i6(g,z,x...) D(i6,g,z,x)
 #define e6(g,z,x...) D(e6,g,z,x)
 #define g6(g,z,x...) D(g6,g,z,x)
@@ -12,9 +16,6 @@
 #define Ef(g,z) e6(g,z,e6 x)
 #define EF(g,z) e6(g,z,e6 a,e6 x)
 #define V(g,z,x...) D(i6*,g,z;R,x)
-#define r4(z) i(n4(n),Ri=z)
-#define R4(g,z,x...) V(g,r4(z),x)
-#define R6(g,z,x...) V(g,i(n6(n),Ri=z),x)
 #define U3 in,IR,IX
 #define Iz i6 z
 #define Ez e6 z

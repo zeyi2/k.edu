@@ -33,3 +33,7 @@ Ui(tb,t(1,i))Ui(ti,t(2,i))U(te,t(5,*(i2*)&e),ee)f(iz,3>tx?x:(int)ex)
 #define sr x(r,sx)
 #define nr x(r,nx)
 #define Nr x(r,Nx)
+#define xg sx[i]
+#define xi xu[i]
+#define xj xU[i]
+#define ag sa[i]

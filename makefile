@@ -1,6 +1,5 @@
-o=-fno-builtin -funsigned-char -fno-unwind-tables -Wno-psabi -Wfatal-errors -Wno-multichar -Wno-parentheses -Wno-pointer-type-mismatch -Wno-incompatible-pointer-types
+o=-Ofast -fno-builtin -funsigned-char -fno-unwind-tables -Wno-multichar -Wno-parentheses -Wno-incompatible-pointer-types -Wfatal-errors -Wno-psabi
 
-a:?.[abc] makefile
-	clang $o -oa [az].c -Ofast -s -nostdlib -mavx512f -mavx512dq -mavx512vbmi -mavx512vnni
-
+a:?.[ch] makefile
+	clang $o -oa ?.c -s -nostdlib -mavx512f -mavx512dq -mavx512vbmi
 

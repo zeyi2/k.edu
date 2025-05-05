@@ -6,7 +6,6 @@
 #define Gi G[i]
 #define xe ((e2*)sx)[i]
 #define pf x(f,px)
-#define aj x(a,xj)
 #define Fi F[i]
 #define Ci C[i]
 #define bi b[i]

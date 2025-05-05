@@ -40,3 +40,12 @@ ZG z0;ZE ze;ZI z2;
 #define Jx j6 x
 #define Vd *(g6*)d
 #define Vs *(g6*)s
+#define zj z[j]
+#define zh z[h]
+#define zk z[i|k]
+#define ai a[i]
+#define aj a[j]
+#define bi b[i]
+#define bj b[j]
+#define ir i2*r
+#define ri r[i]

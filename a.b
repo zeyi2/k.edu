@@ -15,3 +15,4 @@
 #define Qt(b) Qi(b,3)
 #define g_(g,z) U_(g,z,ii,Ux)
 #define G_(g,z) U_(g,z,ii,Ua,Ux)
+#define __(z) _a(_x(z))

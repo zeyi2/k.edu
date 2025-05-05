@@ -1,8 +1,10 @@
+#define A6 (i6)Ai
+#define X6 (i6)Xi
+#define RX in,ER,EX
+#define N0(z) i(n0(n),Ri=z)
+#define V2(g,z,x...) V(g,N2(z),x)
+#define V0(g,z,x...) V(g,N0(z),x)
 #include"a.b"
-#define r4(z) i(n4(n),Ri=z)
-#define R2(g,z,x...) V(g,r4(z),x)
-#define R0(g,z,x...) V(g,i(n6(n),Ri=z),x)
-
 #define i6(g,z,x...) D(i6,g,z,x)
 #define e6(g,z,x...) D(e6,g,z,x)
 #define g6(g,z,x...) D(g6,g,z,x)
@@ -15,8 +17,7 @@
 #define IF(g,z) i6(g,z,i6 a,i6 x)
 #define Ef(g,z) e6(g,z,e6 x)
 #define EF(g,z) e6(g,z,e6 a,e6 x)
-#define V(g,z,x...) D(i6*,g,z;R,x)
-#define U3 in,IR,IX
+#define Gz g6 z
 #define Iz i6 z
 #define Ez e6 z
 #define Xk X[k|i]
@@ -24,10 +25,8 @@
 #define X4 ((g4*)X)[i]
 #define X5 ((i5*)X)[i]
 #define X8 ((i8*)X)[i]
+#define Ag (g6)Ai
 #define Xg (g6)Xi
-#define Re (e6)Ri
-#define Ae (e6)Ai
-#define Xe (e6)Xi
 #define iR i2*R
 #define iA i2*A
 #define iX i2*X

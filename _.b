@@ -6,16 +6,14 @@
 #define _(z) ({z;})
 #define W(z) while(_(z))
 #define f(g,z)  U(g,z,Ux)
-#define Us(g,z) U(g,z,ss)
 #define Ui(g,z) U(g,z,ii)
 #define is(g,z) U(g,z,ii,ss)
 #define h(b,z) {i2 $=b;i2 h=0;while(h<$){z;++h;}}
 #define i(b,z) {i2 $=b;i2 i=0;while(i<$){z;++i;}}
 #define j(b,z) {i2 $=b;i2 j=0;while(j<$){z;++j;}}
-U _k(U),m(U*,ss),_m(U,U),w(i2,ss);
-f(nu,o(popcountl)(x))f(iu,x?o(ctzl)(x):64)f(lu,--x?64-o(clzl)(x):0)Ui(n3,7+i>>3)Ui(n4,15+i>>4)Ui(n6,63+i>>6)Ui(wc,w(1,&i);0)is(wl,w(i,s);wc(10))is(ic,sd=s;W(i!=*s)++s;s-d)
-Us(ws,wl(ic(0,s),s))Ui(wi,r(i,Z0 b[12];in=i>>31;i=n?-i:i;ss=b+11;do*--s=48+i%10;W(i/=10);if(n)*--s='-';ws(s)))f(wu,cc[17];c[16]=10;i(16,in=15&x>>60-4*i;c[i]="0W"[9<n]+n)w(17,c);x)
-#define Q(b) if(b)(ws(__func__),_k(1));
+U _k(U),m(U*,ss),_m(U,U),w(i2,ss),ws(ss);f(nu,o(popcountl)(x))f(iu,x?o(ctzl)(x):64)f(lu,--x?64-o(clzl)(x):0)Ui(n3,7+i>>3)Ui(n2,15+i>>4)Ui(n0,63+i>>6)
+Ui(wc,w(1,&i);0)Ui(wi,r(i,Z0 b[12];in=i>>31;i=n?-i:i;ss=b+11;do*--s=48+i%10;W(i/=10);if(n)*--s='-';ws(s)))f(wu,cc[17];c[16]=10;i(16,in=15&x>>60-4*i;c[i]="0W"[9<n]+n)w(17,c);x)
+#define QQ(b) if(b)(ws(__func__),_k(1));
 #define _a(z...) _(typeof(_(z))z9=_(z);_r(a);z9)
 #define _x(z...) _(typeof(_(z))z9=_(z);_r(x);z9)
 #define U_(g,z,x...)  U g(x){return _(z);}
@@ -36,4 +34,4 @@ Us(ws,wl(ic(0,s),s))Ui(wi,r(i,Z0 b[12];in=i>>31;i=n?-i:i;ss=b+11;do*--s=48+i%10;
 #define $7(z,a,b,c,d,e,f,g)   _(i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):_(g))
 #define $8(z,a,b,c,d,e,f,g,h) _(i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):_(h))
 #define $9(z,a,b,c,d,e,f,g,h,i) _(i2 $=z;!$?_(a):1==$?_(b):2==$?_(c):3==$?_(d):4==$?_(e):5==$?_(f):6==$?_(g):7==$?_(h):_(i))
-#define ZV(g,z,x...) static void g(x){z;}
+#define V(g,z,x...) static void g(x){z;}

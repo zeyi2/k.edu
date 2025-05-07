@@ -12,8 +12,10 @@
 #define i(b,z) {i2 $=b;i2 i=0;while(i<$){z;++i;}}
 #define j(b,z) {i2 $=b;i2 j=0;while(j<$){z;++j;}}
 U _k(U),m(U*,ss),_m(U,U),w2(i2,ss),ws(ss);f(nu,o(popcountl)(x))f(iu,x?o(ctzl)(x):64)f(lu,--x?64-o(clzl)(x):0)Ui(n3,7+i>>3)Ui(n2,15+i>>4)Ui(n0,63+i>>6)
+
 Ui(wc,w2(1,&i);0)Ui(wi,r(i,Z0 b[12];in=i>>31;i=n?-i:i;ss=b+11;do*--s=48+i%10;W(i/=10);if(n)*--s='-';ws(s)))f(wu,cc[17];c[16]=10;i(16,in=15&x>>60-4*i;c[i]="0W"[9<n]+n)w2(17,c);x)
-#define QQ(b) if(b)(ws(__func__),_k(1));
+
+#define Q(b) if(b)(ws(__func__),_k(1));
 #define _a(z...) _(typeof(_(z))z9=_(z);_r(a);z9)
 #define _x(z...) _(typeof(_(z))z9=_(z);_r(x);z9)
 #define U_(g,z,x...)  U g(x){return _(z);}

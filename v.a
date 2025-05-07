@@ -1,9 +1,12 @@
+#define c(a,x) o(convertvector)(a,x)
+#define p(a,x...) o(shufflevector)(a,x)
 #define A6 (i6)Ai
 #define X6 (i6)Xi
 #define RX in,ER,EX
 #define N0(z) i(n0(n),Ri=z)
-#define V2(g,z,x...) V(g,N2(z),x)
+#define N2(z) i(n2(n),Ri=z)
 #define V0(g,z,x...) V(g,N0(z),x)
+#define V2(g,z,x...) V(g,N2(z),x)
 #include"a.b"
 #define i6(g,z,x...) D(i6,g,z,x)
 #define e6(g,z,x...) D(e6,g,z,x)
@@ -14,6 +17,7 @@
 #define GF(g,z) g6(g,z,g6 a,Vx)
 #define G3(g,z) g6(g,z,g6 a,g6 b,Vx)
 #define If(g,z) i6(g,z,i6 x)
+#define Ig(g,z) i6(g,z,ii,i6 x)
 #define IF(g,z) i6(g,z,i6 a,i6 x)
 #define Ef(g,z) e6(g,z,e6 x)
 #define EF(g,z) e6(g,z,e6 a,e6 x)

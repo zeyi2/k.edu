@@ -1,3 +1,4 @@
+#define pr x(r,px)
 #include"_.b"
 #define ax !(x>>63)
 #define tx ( 7&x>>60)
@@ -10,7 +11,7 @@ Ui(tb,t(1,i))Ui(ti,t(2,i))U(te,t(5,*(i2*)&e),ee)f(iz,3>tx?x:(int)ex)
 #define ox (255&x>>32)
 #define vx (mx?nx/ux:nx)
 #define Ox O[ox]
-#define qx (1l<<36>(U)sx-(1l<<32))
+#define qx !(1l<<36>(U)sx-(1l<<32))
 #define jx (b(60)&x)
 #define bx b[tx]
 #define nx (i2)x

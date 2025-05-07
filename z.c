@@ -1,6 +1,6 @@
 #include"z.b"//eval k_()
-ss;//="1|0101"; //_2 3.4";//&m:!32 16";//$!3 4"; //%2 3";//="_m@v:0.+@m:&64";//mm";//+\\2 3";//0+&5";
-Z0*P=":+-*%&|<>=~!@?#_^,$.RENLMS___'/\\()",_P[]="+-*%&|<>=~ !@? #_^, $RES\n+-*%~_ &|<>=^? #!@, $RESM\n",Y[16]=" nyi rnk len typ",F[27][256];ZU*A,C[27][32],G[26],e(U),wx(U),a(ii,ss);
+ss;//="S!3"; //v+v:2 3";//="1|0101"; //_2 3.4";//&m:!32 16";//$!3 4"; //%2 3";//="_m@v:0.+@m:&64";//mm";//+\\2 3";//0+&5";
+Z0*P=":+-*%&|<>=~!@?#_^,$.RENLMS___'/\\()",_P[]="+-*%&|<>=~ !@? #_^, $RES\n+-*%~_ &|<>=^? #!@, $RESM\n",Y[16]=" nyi rnk len typ",F[27][256];ZU*A,C[27][32],G[26],e(U),wx(U),w(ii,ss);
 g(S,_r(Gi);Gi=x;B)Ui(v,33>i-B)U(vf,s=d;i(26,*s=97+i;s+=!!Gi)ns(s-d,d))Ui(c,A=Ci;s=Fi+*Fi;v(*s)?*s---B:e(0))
 g(fx,U*a=A;sd=s;Ub=G[23];r(c(i),S(23,x);s=d;A=a))H(z,QQ(ta)Ub[na];i(na,bi=Gi;Gi=x(a,xj))x=fx(f,x);i(na,Gi=bi)x)H(Z,QQ(ta)i(na,Y(x=z(f,x(a,xj),x)))x)
 U(n,ii=*s--;65==i?e(0):r_(B>i?Ai:G[i-97]?:wl(1,&i)))H(y,12==f&9>a-1?fx(a,x):4>(x=pf?k(f,a,x):0)?(Y[x*=4]=P[f],wl(4,Y+x)):x)U(N,Ux=Y(n());W(!v(*s))x=Y(y(12,Y(n()),x));x)
@@ -17,8 +17,7 @@ is(p,A=Ci;sd=Fi;*++d=64;ij=0;it;W(t=*s;B<t&59!=t)(s+=Y(js(d>Fi+1?s[-1]:B,j,t=34=
 i2($a,$4(t-5,1+$e(ex,s),2+2*$e(ei(x>>32),s+1+$e(ex,s)),$n(x,s),l?$l(l,x,s):$i(x,s)),il,it,Ux,ss)f(lz,P(2-tx,2>tx)im=r(0u,i(nx,r=m(r,xi)));127<<23<m?0:L(m))
 f(wm,il=lz(x);im=mx?ux:1;h(l(16,m),ss=d;ii=h*vx;ij=i+vx;do $(1-l,s+=$a(mx|3>l?l:0,tx,6>tx?xi:xj,s);*s++=B)*s++=48|(2>tx?xg:3>tx?xi:!!xi);W(++i<j&192>s-d);wd(s-d))if(16<m)ws("..");B)
 f(wx,px?x%B?wl(1,P+x):0:ax?wd($a(0,tx,jx,d)):_x(nx?1==tx&B<=*sx?(10-sx[nx-1]?wl:w)(nx,sx):tx?wm(x):ws("lst"):0);x)U(_p,i(32,_r(Ai);Ai=0)0)
-
 #define X(c,z) Ux=0;sd=s+i;in=-1;W((s+=n+1)<d&&(n=(10-c?ib:ic)(c,s))&&(x=_(z)));//repl
-is(q,si=0;X(59,'::'==*(i1*)(s+1)?S(*s-97,p(*s%B,s+3)):r(c(p(0,s)),_p()))x)Us(ls,ii;Uf=m_(&i,s);s=(i0*)f;X(10,im=0;W(++m<n&&'/ '-*(i1*)(s+m));W(B==s[--m]);++m&&47-*s?a(m,s):B)_M(f,i);B)
+is(q,si=0;X(59,'::'==*(i1*)(s+1)?S(*s-97,p(*s%B,s+3)):r(c(p(0,s)),_p()))x)Us(ls,ii;Uf=m_(&i,s);s=(i0*)f;X(10,im=0;W(++m<n&&'/ '-*(i1*)(s+m));W(B==s[--m]);++m&&47-*s?w(m,s):B)_M(f,i);B)
 Ui(ts,Ua=T();i(i,Y(_r(c(0))))ti(t*(T()-a)))is(u,si=0;$6(ib(*++s,"\\ltwv"),_k(0),ls(s+2),i=ic(B,++s);in=i?iz(q(i,s)):1;p(0,s+i+1);r(ts(n),_p()),k_(0,0),vf(),ns(51,_P)))
-is(a,wx((92-*s?q:u)(i,s)))int main(int i,i0**_){_t();m_(0,0);k_(0,0);_t();if(s)(Vd=Vs,a(ic(0,d),d));$(s=*++_,ls(s))ws(__DATE__"(c)atw(l)MIT");W(i=_w(wc(B),d,256))if(--i)a(i,d);}
+is(w,wx((92-*s?q:u)(i,s)))int main(int i,i0**_){_t();m_(0,0);k_(0,0);_t();if(s)(Vd=Vs,w(ic(0,d),d));$(s=*++_,ls(s))ws(__DATE__"(c)atw(l)MIT");W(i=_w(wc(B),d,256))if(--i)w(i,d);}

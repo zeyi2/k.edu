@@ -1,5 +1,5 @@
 #include"z.b"
-ss="2(!10)'!2";
+ss;//="2(!10)'!2";
 Z0*P=":+-*%&|<>=~!@?#_^,$.RENLMS___'/\\()",_P[]="+-*%&|<>=~ !@? #_^, $RES\n+-*%~_ &|<>=^? #!@, $RESM\n",Y[16]=" nyi rnk len typ",F[27][256];ZU*A,C[27][32],G[26],e(U),wx(U),w(ii,ss);
 g(S,_r(Gi);Gi=x;B)Ui(v,33>i-B)U(vf,s=d;i(26,*s=97+i;s+=!!Gi)ns(s-d,d))Ui(c,A=Ci;s=Fi+*Fi;v(*s)?*s---B:e(0))g(fx,U*a=A;sd=s;Ub=G[23];r(c(i),S(23,x);s=d;A=a))
 H(z,Q(ta)Ub[na];i(na,bi=Gi;Gi=x(a,xj))x=fx(f,x);i(na,Gi=bi)x)H(Z,Q(ta)i(na,Y(x=z(f,x(a,xj),x)))x)H(X,_x(R(0,nf,i(nf,rj=fi?k(fi,r_(a),r_(x)):r_(x)))))
@@ -20,6 +20,4 @@ f(wx,px?B>x?wl(1,P+x):0:ax?wd($a(0,tx,jx,d)):tx?nx?1==tx&B<=*sx?(10-sx[nx-1]?wl:
 #define X(c,z) Ux=0;sd=s+i;in=-1;W((s+=n+1)<d&&(n=(10-c?ib:ic)(c,s))&&(x=_(z)));//repl
 is(q,si=0;X(59,'::'==*(i1*)(s+1)?S(*s-97,p(*s%B,s+3)):r(c(p(0,s)),_p()))x)Us(ls,ii;Uf=m_(&i,s);s=(i0*)f;X(10,im=0;W(++m<n&&'/ '-*(i1*)(s+m));W(B==s[--m]);++m&&47-*s?w(m,s):B)_M(f,i);B)
 Ui(ts,Ua=T();i(i,Y(_r(c(0))))ti(t*(T()-a)))is(u,si=0;$6(ib(*++s,"\\ltwv"),_k(0),ls(s+2),i=ic(B,++s);in=i?iz(q(i,s)):1;p(0,s+i+1);r(ts(n),_p()),k_(0,0),vf(),ns(51,_P)))
-is(w,Ux=Y((92-*s?q:u)(i,s));_x(wx(x)))
-int main(int i,i0**_){_t();m_(0,0);k_(0,0);_t();if(s)(Vd=Vs,w(ic(0,d),d));$(s=*++_,ls(s))ws(__DATE__"(c)atw(l)MIT");W(i=_w(wc(B),d,256))if(--i)w(i,d);}
-
+is(w,Ux=Y((92-*s?q:u)(i,s));_x(wx(x)))int main(int i,i0**_){_t();m_(0,0);k_(0,0);_t();if(s)(Vd=Vs,w(ic(0,d),d));$(s=*++_,ls(s))ws(__DATE__"(c)atw(l)MIT");W(i=_w(wc(B),d,256))if(--i)w(i,d);}

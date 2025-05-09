@@ -1,3 +1,4 @@
+#define Eb e6 b
 #define R(t,n,z) r(tn(t,n),z)
 #define G(g,z) U(g,z,ii,Ua,Ux)
 #define pr x(r,px)
@@ -43,3 +44,6 @@ Ui(tb,t(1,i))Ui(ti,t(2,i))U(te,t(5,*(i2*)&e),ee)f(iz,3>tx?x:(int)ex)
 #define xj xU[i]
 #define rj x(r,xU)[i]
 #define ag sa[i]
+#define zl z[l]
+#define Xh X[h]
+#define Rh R[h]

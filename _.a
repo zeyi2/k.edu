@@ -37,6 +37,7 @@ ZG z0;ZE ze;ZI z2;
 #define Ai A[i]
 #define Bi B[i]
 #define Xi X[i] 
+#define Zi Z[i] 
 #define Oi O[i] 
 #define oo ws("oo")
 #define Vx g6 x

@@ -7,7 +7,7 @@
 #define tx ( 7&x>>60)
 #define ex (*(e2*)&x)
 #define ix (i2)x
-Ui(tb,t(1,i))Ui(ti,t(2,i))U(te,t(5,*(i2*)&e),ee)f(iz,3>tx?x:(int)ex)
+Ui(tb,t(1,i))Ui(ti,t(2,i))U(te,t(5,*(i2*)&e),ee)i2(iz,3>tx?ix:(int)ex,Ux)
 #define px (t(1,0)>x)
 #define hx ( 31&x>>54)
 #define mx (  1&x>>53)

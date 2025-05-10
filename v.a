@@ -1,18 +1,18 @@
-#define iH i2 H
-#define iI i2 I
-#define iJ i2 J
+#define N2(z) i(n2(I),Ri=z)
+#define V2(g,z,x...) V(g,i(n2(I),Ri=z),x)
+#define V0(g,z,x...) V(g,i(n0(I),Ri=z),x)
+#define _R iI,ER
+#define RX iI,ER,EX
+#define RAX iI,iJ,ER,EA,EX
 #define Z(t,z) _x(R(t,nx,r=mx?u_(ux,r):r;z)) 
 #define X(z) Z(tx,z)//(qx|63&ox?Y(tx,z):r(x,z))
 #define Y(o,y...) i5*X=&x;i(2,Xi=O(o)(y))x 
+#define p6(z,a,b,c,d,e,f) _(e6 $=z;(e2)(a)+$*((e2)b+$*((e2)c+$*((e2)d+$*((e2)e+$*(e2)f)))))
+#define iH i2 H
+#define iI i2 I
+#define iJ i2 J
 #define c(a,x)    o(convertvector)(a,x)
 #define p(a,x...) o(shufflevector)(a,x)
-#define A6 (i6)Ai
-#define X6 (i6)Xi
-#define RX in,ER,EX
-#define N0(z) i(n0(n),Ri=z)
-#define N2(z) i(n2(n),Ri=z)
-#define V0(g,z,x...) V(g,N0(z),x)
-#define V2(g,z,x...) V(g,N2(z),x)
 #include"a.b"
 #define i6(g,z,x...) D(i6,g,z,x)
 #define e6(g,z,x...) D(e6,g,z,x)

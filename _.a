@@ -1,9 +1,9 @@
 #define V(t,n) t##n __attribute((vector_size(1<<n),aligned(1)))
 typedef unsigned long U,V(j,6);typedef char i0,V(g,4),V(g,5),V(g,6);typedef unsigned short i1;typedef unsigned i2,V(i,6),V(i,5),V(i,8);
-typedef float e2,V(e,6),V(e,5),V(e,7),V(e,8);typedef int V(s,6);static i5 y0;
+typedef float e2,V(e,6),V(e,5),V(e,7),V(e,8);typedef int V(s,6);static i5 y0;static g6 z0;static e6 ze;static i6 z2;
 #undef V
+#define re ((e2*)R)[i]
 #define Xj X[j]
-#define er e2*r
 #define Uf U f
 #define Ur Ur
 #define Ua U a
@@ -31,7 +31,6 @@ typedef float e2,V(e,6),V(e,5),V(e,7),V(e,8);typedef int V(s,6);static i5 y0;
 #define ZI static i6
 #define ZE static e6
 #define ZJ static j6
-ZG z0;ZE ze;ZI z2;
 #define zi z[i]
 #define Ri R[i] 
 #define Ai A[i]
@@ -51,5 +50,3 @@ ZG z0;ZE ze;ZI z2;
 #define aj a[j]
 #define bi b[i]
 #define bj b[j]
-#define ir i2*r
-#define ri r[i]

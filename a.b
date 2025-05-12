@@ -1,7 +1,9 @@
-#define ux (mx?Ox>>47:nx)
-#define sx ((i0*)(b(41)<<6&Ox))
-#define u nx,sr,sx
-#include"a.a"
+#define R(t,n,z) r(o_(t,n),z)
+#define R_(m,t,n,z) (r(o_(t,m+n),z)-m)
+#define sx ((i0*)(Ox&~b(6)))
+#include"a.a"//(qx|63&ox?Z(tx,z):r(x,z))
+#define X(z) Z(tx,z) 
+#define Z(t,z) _x(R(t,nx,r=mx?u_(ux,r):r;z)) 
 #define F(g,z) U(g,z,Ua,Ux)
 #define inx(g,z) U(g,z,ii,in,Ux)
 #define bc(q,z) _(q##2 b=q##a;q##2 c=q##x;t##q(z))
@@ -12,3 +14,4 @@
 #define Qt(b) Qi(b,3)
 #define g_(g,z) U_(g,z,ii,Ux)
 #define G_(g,z) U_(g,z,ii,Ua,Ux)
+#define u nx,sr,sx

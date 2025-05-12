@@ -1,23 +1,23 @@
-#define Eb e6 b
-#define R(t,n,z) r(tn(t,n),z)
-#define G(g,z) U(g,z,ii,Ua,Ux)
-#define pr x(r,px)
 #include"_.b"
+#define qx !(1l<<36>(U)sx-(1l<<32))
+#define mx (31&x>>31)
+#define ux (mx?b(mx)&ix:ix)
+#define vx ((b(31)&ix)>>mx)
+#define nx (mx?ux*vx:ix)
+#define t(t,z) ((U)(t)<<60|(z))
+#define tb(z) t(1,z)
+#define ti(z) t(2,z)
+#define te(z) _(ee=z;t(5,*(i2*)&e))
+#define ox (255&x>>36)
 #define ax !(x>>63)
-#define tx ( 7&x>>60)
+#define px (t(1,0)>x)
+#define tx (07&x>>60)
+#define hx (31&x>>54)
 #define ex (*(e2*)&x)
 #define ix (i2)x
-Ui(tb,t(1,i))Ui(ti,t(2,i))U(te,t(5,*(i2*)&e),ee)i2(iz,3>tx?ix:(int)ex,Ux)
-#define px (t(1,0)>x)
-#define hx ( 31&x>>54)
-#define mx (  1&x>>53)
-#define ox (255&x>>32)
-#define vx (mx?nx/ux:nx)
 #define Ox O[ox]
-#define qx !(1l<<36>(U)sx-(1l<<32))
 #define jx (b(60)&x)
 #define bx b[tx]
-#define nx (i2)x
 #define Nx (nx<<b[tx])
 #define ru ((i2*)sr)
 #define aV ((g6*)sa)
@@ -37,13 +37,13 @@ Ui(tb,t(1,i))Ui(ti,t(2,i))U(te,t(5,*(i2*)&e),ee)i2(iz,3>tx?ix:(int)ex,Ux)
 #define ia x(a,ix)
 #define ea x(a,ex)
 #define sr x(r,sx)
-#define nr x(r,nx)
 #define Nr x(r,Nx)
+#define pr x(r,px)
 #define xg sx[i]
 #define xi xu[i]
 #define xj xU[i]
 #define rj x(r,xU)[i]
-#define ag sa[i]
 #define zl z[l]
 #define Xh X[h]
 #define Rh R[h]
+#define Eb e6 b

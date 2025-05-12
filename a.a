@@ -1,5 +1,6 @@
 #include"_.b"
-#define qx !(1l<<36>(U)sx-(1l<<32))
+#define tx (07&x>>60)
+#define hx (31&x>>53)
 #define mx (31&x>>31)
 #define ux (mx?b(mx)&ix:ix)
 #define vx ((b(31)&ix)>>mx)
@@ -8,11 +9,10 @@
 #define tb(z) t(1,z)
 #define ti(z) t(2,z)
 #define te(z) _(ee=z;t(5,*(i2*)&e))
+#define qx !(1l<<36>(U)sx-(1l<<32))
 #define ox (255&x>>36)
 #define ax !(x>>63)
 #define px (t(1,0)>x)
-#define tx (07&x>>60)
-#define hx (31&x>>54)
 #define ex (*(e2*)&x)
 #define ix (i2)x
 #define Ox O[ox]

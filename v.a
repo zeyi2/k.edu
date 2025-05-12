@@ -1,3 +1,6 @@
+#define IA i6*A
+#define IX i6*X
+#define IR iI,ER
 #define bt b[t]
 #define tn(g,z) U(g,z,it,in)
 #define RAX iI,iJ,ER,eA,EX
@@ -10,7 +13,6 @@
 #define Y(o,y...) i5*X=&x;i(2,Xi=O(o)(y))x 
 #define p6(z,a,b,c,d,e,f) _(e6 $=z;(e2)(a)+$*((e2)b+$*((e2)c+$*((e2)d+$*((e2)e+$*(e2)f)))))
 #include"a.b"
-#define _R iI,ER
 #define RX iI,ER,EX
 #define i6(g,z,x...) D(i6,g,z,x)
 #define e6(g,z,x...) D(e6,g,z,x)
@@ -38,9 +40,6 @@
 #define eR e2*R
 #define eA e2*A
 #define eX e2*X
-#define IR i6*R
-#define IA i6*A
-#define IX i6*X
 #define ER e6*R
 #define EA e6*A
 #define EX e6*X

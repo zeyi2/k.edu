@@ -1,5 +1,12 @@
+#define rx nx,sr,sx
+#define arx sa,rx
+#define irx ia,rx
+#define erx ea,rx
+#define rax m,n,sr,sa,sx
+
 #define R(t,n,z) r(o_(t,n),z)
-#define R_(m,t,n,z) (r(o_(t,m+n),z)-m)
+#define mR(m,t,n,z) _(i2 $=m;r(o_(t,n+$),z)-$)
+
 #define sx ((i0*)(Ox&~b(6)))
 #include"a.a"//(qx|63&ox?Z(tx,z):r(x,z))
 #define X(z) Z(tx,z) 
@@ -14,4 +21,3 @@
 #define Qt(b) Qi(b,3)
 #define g_(g,z) U_(g,z,ii,Ux)
 #define G_(g,z) U_(g,z,ii,Ua,Ux)
-#define u nx,sr,sx

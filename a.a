@@ -1,3 +1,4 @@
+#define iR i2*R
 #include"_.b"
 #define tx (07&x>>60)
 #define hx (31&x>>53)
@@ -7,7 +8,7 @@
 #define nx (mx?ux*vx:ix)
 #define t(t,z) ((U)(t)<<60|(z))
 #define tb(z) t(1,z)
-#define ti(z) t(2,z)
+#define ti(z) t(2,(i2)(z))
 #define te(z) _(ee=z;t(5,*(i2*)&e))
 #define qx !(1l<<36>(U)sx-(1l<<32))
 #define ox (255&x>>36)
@@ -42,7 +43,6 @@
 #define xg sx[i]
 #define xi xu[i]
 #define xj xU[i]
-#define rj x(r,xU)[i]
 #define zl z[l]
 #define Xh X[h]
 #define Rh R[h]

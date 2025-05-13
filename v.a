@@ -43,8 +43,6 @@
 #define ER e6*R
 #define EA e6*A
 #define EX e6*X
-#define gA i0*A
-#define GX g6*R
 #define iH i2 H
 #define iI i2 I
 #define iJ i2 J

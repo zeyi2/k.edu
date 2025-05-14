@@ -1,7 +1,7 @@
-+   - *   %    &and |or <   >    =    ~   !     @     ?inv      #take      _drop ^cut      ,$. rms sgm in min max sum avg var .. [:~]F'/\
-abs - sqr sqrt flip rev asc desc freq not index first uniq/rand count/grid floor sort/rule ,$. sfm exp in min max sum avg var .. [!.]f'/\
++   - *   %    &and |or <   >    =    ~   !     @     ?inv      #take _drop ^cut      , rms sgm min max sum[avg var ..] [:~]F'/\
+abs - sqr sqrt flip rev asc desc freq not index first uniq/rand count floor sort/rule , sfm exp min max sum[avg var ..] [!.]f'/\
 while if else case select[count in first last min max sum avg var dev]by from where [&|<>=]matrix 
-:+-*%&|<>=~!@? #_^,[:+-*%~_ &|<>=^?#!@,] 16+4list 9+11list 10+10aggr 20math 10gen 10'10/10\ W[TABC]RENLMSUV..
+:+-*%&|<>=~!@? #_^,[:+-*%~_ &|<>=^?#!@,] 16+4list 9+11list 10+10aggr 20math 10gen 10'10/10\ W[TABC]RNLMS[UV..]
 
 k-torch t::a+0|b?d^0|c?d^x /temporal convolution network
 llama/gemma/.. E(sigmoid a*x%1+E-x) R(rms a*x%%A*x) $(softmax x%Sx:Ex-Mx) llama3.2-1b(1+.3)128256 17*13**d:2048

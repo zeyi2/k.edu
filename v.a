@@ -1,9 +1,9 @@
 #define l(b,z) {i2 $=b;i2 l=0;while(l<$){z;++l;}}
 #define c(a,x)    o(convertvector)(a,x)
 #define p(a,x...) o(shufflevector)(a,x)
-#define V2(g,z,x...) V(g,i(n4(I),Ri=z),x)
-#define V0(g,z,x...) V(g,i(n6(I),Ri=z),x)
 #define Y(o,y...) i5*X=&x;i(2,Xi=O(o)(y))x 
+#define V0(g,z,x...) V(g,i(n6(I),Ri=z),x)
+#define V2(g,z,x...) V(g,i(n4(I),Ri=z),x)
 #define p6(z,a,b,c,d,e,f) _(e6 $=z;(e2)(a)+$*((e2)b+$*((e2)c+$*((e2)d+$*((e2)e+$*(e2)f)))))
 #define g6(g,z,x...) D(g6,g,z,x)
 #define i6(g,z,x...) D(i6,g,z,x)
@@ -27,7 +27,6 @@
 #define XI (i6)Xi
 #define IA i6*A
 #define IX i6*X
-#define bt b[t]
 #define Gz g6 z
 #define Iz i6 z
 #define Ez e6 z
@@ -41,9 +40,6 @@
 #define eR e2*R
 #define eA e2*A
 #define eX e2*X
-#define ER e6*R
-#define EA e6*A
-#define EX e6*X
 #define iH i2 H
 #define iI i2 I
 #define iJ i2 J

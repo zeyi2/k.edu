@@ -2,6 +2,7 @@
 #define AR EA,RX
 #define IR iI,ER
 #define RX iI,ER,EX
+#define u3 nx,sr,sx 
 #include"a.b"
 #define AI (i6)Ai
 #define XG (g6)Xi
@@ -9,6 +10,7 @@
 #define R4 ((g4*)R)[i]
 #define X4 ((g4*)X)[i]
 #define X5 ((i5*)X)[i]
+#define A8 ((i8*)A)[i]
 #define X8 ((i8*)X)[i]
 #define IA i6*A
 #define IX i6*X
@@ -23,3 +25,4 @@
 #define iH i2 H
 #define iI i2 I
 #define iJ i2 J
+VF(SG,a+x)VF(SI,(i6)a+x)VF(SE,(e6)a+x)

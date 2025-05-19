@@ -1,7 +1,7 @@
 #include"a.a"
-#define TN(t,n,z) r(o_(t,n),z)
-#define Z(t,z)  X(r(o_(t,nx),r=mx?u_(ux,r):r;z))
-#define _(z)    Z(tx,z)
+#define N(t,n,z)  r(o_(t,n),z)
+#define T(t,z)  Z(r(o_(t,nx),r=mx?u_(ux,r):r;z))
+#define X(z)    T(tx,z)
 
 #define bc(q,z) ({q##2 b=q##a;q##2 c=q##x;t##q(z);})
 #define Qz(b) if(b)return 0;

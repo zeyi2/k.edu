@@ -5,6 +5,8 @@ t:1e9%#e:^#i:_n*?n:1e3
 \tt *e
 \tt %e
 \tt +\i
+\t2?t Ee
+\t2?t ii
 t:1e6;v:,s:5
 \tt 1<2*3+4**s
 \tt 1<2*3+4**v
@@ -19,8 +21,6 @@ t:10e9%n**#v:@m:*&n:256
 
 \t1e2t Sc
 \t1e1t Sd
-\t2?t Ee
-\t2?t ii
 
 
 4GHZ ns/n cy/b inference(2.2:1) db(1:1 10:1) l1/400 l2/200 l3/50 l4/40

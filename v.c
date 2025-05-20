@@ -9,6 +9,6 @@ ft(0,6,s,S,g,G)ft(0,6,m,M,g,G)ft(2,4,m,M,i,I)ft(2,4,s,S,i,I)e2(me,ii=mi(I,R);*(e
 i2(sb,r(z2,i(n9(I),r+=O(vpopcntd_)(Ri)))[15],IR)_(n0,i(n6(I),Ri=I0|(i0)(64*i)),IR)_(gw,i(n6(I),Ri=n-z2),in,IR)_(d0,i(n6(I),Ri=Xi),RX)_(r0,i(n6(I),Ri=R0(*--X)),RX)
 V2(r2,R2(*--X),RX)V2(gb,GB(((U*)X)[i]),RX)V2(gi,GI(X8),RX)V2(ig,IG(X4),RX)V2(ei,EI(Xi),RX)V2(ie,IE(Xi),RX)V2(eZ,E(Xi),RX)V2(q_,Xi*Xi,RX)V2(_q,qq(Xi),RX)
 V2(jj,JJ(),IR)V2(iV,$4(j,n+XI,n-XI,n*XI,dv(n,Xi)),ij,in,RX)V2(eV,$4(j,e+Xi,e-Xi,e*Xi,e/Xi),ij,ee,RX)V2(IV,$3(j,AI+Xi,AI-Xi,AI*Xi),ij,AR)V2(EV,$4(j,Ai+Xi,Ai-Xi,Ai*Xi,Ai/Xi),ij,AR)
-V2(n2,I2|16*i,IR)V2(a2,G2(A,Xi),AR)_(a0,i(n4(I),R4=c((i6)G0(A,Xi),g4)),AR)//_(RZ,ee=1/qq(vv(I,X,X)/I-ze)[0];i(n4(I),Ri=e*Ai*Xi),AR)V2(EZ,Ai*Xi/(1+E(-Xi)),ij,AR)
+V2(n2,I2|16*i,IR)V2(a2,G2(A,Xi),AR)_(a0,i(n4(I),R4=c((i6)G0(A,Xi),g4)),AR)_(RZ,ee=1/qq(vv(I,X,X)/I-ze)[0];i(n4(I),Ri=e*Ai*Xi),AR)V2(EZ,Ai*Xi/(1+E(-Xi)),AR)
 _(mm,i(3+I>>2,j(J,Ez[4]={};h(H,kk(4,z[k]+=A[H*(4*i+k)+h]*X[J*h+j]))kk(4,t?R[J*(4*i+k)+j]+=z[k]:(R[J*(4*i+k)+j]=z[k])))),it,iH,aX)
 _(MM,J/=16;$(H*J-1>>12,i(I*J,Ri=z0)h(H/64,j(J/4,mm(1,64,I,4,A+H*64+h,R+J*4+j,X+J*H*(64+h)+j))))mm(0,H,I,J,R,A,X),iH,aX)

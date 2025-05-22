@@ -6,7 +6,7 @@ _(mv,i(I,((e2*)R)[i]=vv(J,A+J*i,X)),aX)_(vm,J/=16;j(J/4,Ez[4]={};i(I,j(4,zj+=Ai*
 _(t0,i(I>>6,j(J>>6,Ez[1<<6];h(1<<6,zh=Xh)i(6,mM(0,i))h(1<<6,Rh=zh))),iJ,RX)_(t2,i(I>>4,j(J>>4,Ez[1<<4];h(1<<4,zh=Xh)i(4,mM(2,i))h(1<<4,Rh=zh))),iJ,RX)
 #define ft(m,M,o,O,t,T) Vf(O##t,i(M,x=O##T(x,S##m(i,x)))x)i2(o##t,((t##6)O##t(r(z##m,i(b(M)+I>>M,r=O##T(r,Ri)))))[b(M)],IR)_(o##T,T##z=z0;i(b(M)+I>>M,Ri=z=O##T(z[b(M)]-z##m,O##t(Xi))),RX)
 ft(0,6,s,S,g,G)ft(0,6,m,M,g,G)ft(2,4,m,M,i,I)ft(2,4,s,S,i,I)e2(me,ii=mi(I,R);*(e2*)&i,IR)_(sZ,ee=me(I,X);i(n4(I),Ri=E(Xi-e))e=1/se(I,R);i(n4(I),Ri*=e),RX)
-i2(sb,r(z2,i(n9(I),r+=O(vpopcntd_)(Ri)))[15],IR)_(n0,i(n6(I),Ri=I0|(i0)(64*i)),IR)_(gw,i(n6(I),Ri=n-z2),in,IR)_(d0,i(n6(I),Ri=Xi),RX)_(r0,i(n6(I),Ri=R0(*--X)),RX)
+i2(sb,r(z2,i(n9(I),r+=O(vpopcntd_)(Ri)))[15],IR)_(n0,i(n6(I),Ri=I0|(i0)(64*i)),IR)_(gw,i(n6(I),Ri=n-z2),in,IR)_(r0,i(n6(I),Ri=R0(*--X)),RX)
 V2(r2,R2(*--X),RX)V2(gb,GB(((U*)X)[i]),RX)V2(gi,GI(X8),RX)V2(ig,IG(X4),RX)V2(ei,EI(Xi),RX)V2(ie,IE(Xi),RX)V2(eZ,E(Xi),RX)V2(q_,Xi*Xi,RX)V2(_q,qq(Xi),RX)
 V2(jj,JJ(),IR)V2(iV,$4(j,n+XI,n-XI,n*XI,dv(n,Xi)),ij,in,RX)V2(eV,$4(j,e+Xi,e-Xi,e*Xi,e/Xi),ij,ee,RX)V2(IV,$3(j,AI+Xi,AI-Xi,AI*Xi),ij,AR)V2(EV,$4(j,Ai+Xi,Ai-Xi,Ai*Xi,Ai/Xi),ij,AR)
 V2(n2,I2|16*i,IR)V2(a2,G2(A,Xi),AR)_(a0,i(n4(I),R4=c((i6)G0(A,Xi),g4)),AR)_(RZ,ee=1/qq(vv(I,X,X)/I-ze)[0];i(n4(I),Ri=e*Ai*Xi),AR)V2(EZ,Ai*Xi/(1+E(-Xi)),AR)

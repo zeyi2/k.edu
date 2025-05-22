@@ -2,7 +2,7 @@
 #define Us(g,z) U(g,z,ss)
 #define is(g,z) U(g,z,ii,ss)
 #include"z.a"
-g(iv,$6(bx,x0,0,0,x3,0,x5))f(_r,ax?x:k(0,x,0))f(r_,ax?x:k(0,0,x))is(ns,r(k_(4,i),sd=sr;i(nr,di=si)))f(mw,r(0u,i(nx,r=m(r,iv(i,x)))))is(gs,r(ns(i,s),*(g6*)sr&=15))
+g(iv,$6(bx,x0,0,0,x3,0,x5))f(_r,ax?x:k(0,x,0))f(r_,ax?x:k(0,0,x))
 #define AS(f,s,a...) ZU __attribute((naked))f(a){asm(s"ret");}
 #if linux
 void _start(){asm("lea 8(%rsp),%rsi;call k9;mov $60,%rax;syscall");o(ia32_ldmxcsr)(0xbfc0);}
@@ -20,6 +20,7 @@ e2(ei,*(e2*)&i,ii)is(i$,i*(46>*s)?-i$(i-1,s+1):r(0,i(i,r=10*r+si-48)))f(l0,r(1,W
 e2(e$,ii=ib(101,s);n>i?x(e$(i++,s),(i=i$(n-i,s+i))>>31?x/E[-i]:x*E[i]):46>*s?-e$(n-1,s+1):x(i$(i=l(n,ib(46,s)),s),n-=i+=n>i;(x*E[n]+i$(n,s+i))/E[n]),in,ss)
 #define A(z) r(z,P(!r,0))
 g_(m_,r(M_(i?0:1l<<32,x,3,i?2:M,i,0),i?_o(i):0;$(x>>18,m9(r,x,14))))U_(ms,Un=A(_n(s));Ux=m_(o_((U)s,0),n);r(z(n,x),_m(x,n)),_U z,ss)
+g(tn,k_(i,x))is(ns,r(tn(4,i),d0(i,sr,s)))f(mw,r(0u,i(nx,r=m(r,iv(i,x)))))is(gs,r(ns(i,s),*(g6*)sr&=15))
 #define qd(x) (10u>x-48)
 #define qn(x) (10u>x-48|27>x-96|34==x|41==x|93==x)//0a()[]-2
 #define xe ((e2*)sx)[i]

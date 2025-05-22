@@ -1,26 +1,22 @@
-#define r5 x(r,xu)[i]
-#define r6 x(r,xU)[i]
-#include"_.c"//.bqgie..  .bpqghijklm..efz 30123456789..566
-#define Nx n3(nx<<bx)
-#define gn (i0)n
-#define zl z[l]
-#define Xh X[h]
-#define Rh R[h]
-#define Eb e6 b
-#define aV ((g6*)sa)
-#define Ox O[ox]
-#define ox (255&x>>36)
-#define rx (63&Ox)
-#define hx (31&x>>54)
-#define mx (31&x>>31)
+#define AR EA,RX
+#define IR iI,ER
+#define RX iI,ER,EX
+#include"_.c"
+#define qx !(1l<<36>(U)sx-(1l<<32))
 #define ux (mx?b(mx)&ix:ix)
 #define vx ((b(31)&ix)>>mx)
-#define nx (mx?ux*vx:ix)
-#define qx !(1l<<36>(U)sx-(1l<<32))
-#define ax !(x>>63)
-#define px (1l<<60>x)
 #define jx ((1l<<60)-1&x)
-
+#define nx (mx?ux*vx:ix)
+#define ox (255&x>>36)
+#define r5 x(r,xu)[i]
+#define r6 x(r,xU)[i]
+#define Nx n3(nx<<bx)
+#define px (1l<<60>x)
+#define hx (31&x>>54)
+#define mx (31&x>>31)
+#define aV ((g6*)sa)
+#define ax !(x>>63)
+#define rx (63&Ox)
 #define tr x(r,tx)
 #define pf x(f,px)
 #define pa x(a,px)
@@ -40,4 +36,9 @@
 #define Nr x(r,Nx)
 #define pr x(r,px)
 #define nf x(f,nx)
-
+#define Ox O[ox]
+#define gn (i0)n
+#define zl z[l]
+#define Xh X[h]
+#define Rh R[h]
+#define Eb e6 b

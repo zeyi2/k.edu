@@ -1,17 +1,15 @@
-#define AR EA,RX
-#define IR iI,ER
-#define RX iI,ER,EX
-#include"_.c"
-#define qx !(1l<<36>(U)sx-(1l<<32))
+#include"_.b"
+#define sx ((i0*)(Ox&~b(6)))
 #define ux (mx?b(mx)&ix:ix)
 #define vx ((b(31)&ix)>>mx)
-#define jx ((1l<<60)-1&x)
+#define jx ((1l<<59)-1&x)
 #define nx (mx?ux*vx:ix)
 #define ox (255&x>>36)
 #define r5 x(r,xu)[i]
 #define r6 x(r,xU)[i]
+#define r9 x(r,xV)[i]
 #define Nx n3(nx<<bx)
-#define px (1l<<60>x)
+#define px (1l<<59>x)
 #define hx (31&x>>54)
 #define mx (31&x>>31)
 #define aV ((g6*)sa)
@@ -34,11 +32,5 @@
 #define sr x(r,sx)
 #define nr x(r,nx)
 #define Nr x(r,Nx)
-#define pr x(r,px)
-#define nf x(f,nx)
 #define Ox O[ox]
-#define gn (i0)n
-#define zl z[l]
-#define Xh X[h]
-#define Rh R[h]
 #define Eb e6 b

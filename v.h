@@ -1,9 +1,17 @@
-#include"v.a"
+#define AI (i6)Ai
+#define XI (i6)Xi
+#define XV (g6)Xi
+#define X8 ((i8*)X)[i]
+#define A8 ((i8*)A)[i]
+#define u3 nx,sr,sx 
+#define U3 iI,ER,EX
+#define U4 EA,iI,ER,EX
+#define IJ iI,iJ,ER,eA,EX
+#include"a.h"
 #define O(f) o(ia32_##f##512)
 #define A(s,x,i) o(ia32_gathersiv16si)(z2,s,x,-1,i)
 Vf(SB,O(vpopcntd_)(x))V(GB,O(selectb_)(x,1|z0,z0),Ux)
 UV(b0,O(cvtb2mask)(x))UV(b2,O(cvtd2mask)(x))VF(MG,O(pmaxub)(a,x))VF(LI,O(pminud)(a,x))VF(MI,O(pmaxud)(a,x))
-
 #define c(a,x)      o(convertvector)(a,x)
 #define q(a,x)      o(shufflevector)((typeof(x))a,x)
 #define p(a,x,i...) o(shufflevector)(a,(typeof(a))x,i)

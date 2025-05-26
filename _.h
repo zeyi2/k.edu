@@ -1,124 +1,128 @@
-#define I0 ((g6){0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63})
-#define I2 ((i6){0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15})
-#define V(t,n) t##n __attribute((vector_size(1<<n),aligned(1)))//bpqghij.. efz
-typedef int V(s,6);typedef float e2,V(e,6);typedef char i0,V(g,4),V(g,6);typedef unsigned i2,V(i,5),V(i,6),V(i,8);typedef unsigned long U,(*_U)(i2,U),V(j,6);
-#undef V
-#define zk z[i|k]
-#define Ze static e2
-#define Z0 static i0
-#define Z2 static i2
-#define ZI static i6
-#define ZE static e6
-#define ZJ static j6
-#define ZU static U
-#define Vd *(g6*)d
-#define Vs *(g6*)s
-#define z0 (g6){}
-#define z2 (i6){}
-#define ze (e6){}
-#define Iz i6 z
-#define Ez e6 z
-#define Ex e6 x
-#define Gz g6 z
-#define Va g6 a
-#define Vx g6 x
-#define iH i2 H
-#define iJ i2 J
-#define gg i0 g
-#define ee e2 e
-#define sd i0*d
-#define ss i0*s
-#define st i0*t
-#define ih i2 h
-#define ii i2 i
-#define ij i2 j
-#define ik i2 k
-#define il i2 l
-#define im i2 m
-#define in i2 n
-#define iI i2 I
-#define it i2 t
-#define tx (15&x>>59)
-#define bx (A[tx]%16)
-#define sx ((i0*)(Ox&~b(6)))
-#define ux (mx?b(mx)&ix:ix)
-#define vx ((b(31)&ix)>>mx)
-#define nx (mx?ux*vx:ix)
-#define ox (255&x>>36)
-#define Nx n3(nx<<bx)
-#define px (1l<<59>x)
-#define hx (31&x>>54)
-#define mx (31&x>>31)
-#define aV ((g6*)sa)
-#define ax !(x>>63)
-#define rx (63&Ox)
-#define Ox O[ox]
-#define ex (*(e2*)&x)
-#define r5 ((i2*)sr)[i]
-#define r6 ((U*)sr)[i]
-#define r9 ((g6*)sr)[i]
-#define x0 (1&((U*)sx)[i/64]>>i%64)
-#define x3 sx[i]
-#define x5 ((i2*)sx)[i]
-#define x6 ((U*)sx)[i]
-#define x9 ((g6*)sx)[i]
-#define ix (i2)x
+#define az !(z>>63)
+#define bz (A[tz]%16)
+#define ez (*(e*)&z)
+#define hz (31&z>>54)
+#define iz (int)z
+#define jz (b(59)&z)
+#define mz (31&z>>31)
+#define nz (mz?uz*vz:iz)
+#define oz (255&z>>36)
+#define pz (1l<<59>z)
+#define rz (63&Oz)
+#define sz ((g*)(Oz&~b(6)))
+#define tz (15&z>>59)
+#define uz (mz?b(mz)&iz:iz)
+#define vz ((b(31)&iz)>>mz)
+#define Nz n3(nz<<bz)
+#define Oz O[oz]
 #define rU ((U*)sr)
+#define v(n) __attribute((vector_size(1<<n),aligned(1)))//bpqghij.. efz
+typedef float e,E v(6);typedef char g,_G v(6-2),G v(6);typedef unsigned I v(6),I_ v(6+2);typedef unsigned long U,(*_U)(unsigned,U),J v(6);
+typedef int S_ v(6+2);
+#undef v
+#define z0 (1&((U*)sz)[i/64]>>i%64)
+#define z3 sz[i]
+#define z5 ((unsigned*)sz)[i]
+#define z6 ((U*)sz)[i]
+#define zG ((G*)sz)[i]
+#define Ri R[i]
+#define Yi Y[i]
+#define Zi Z[i]
+#define Zj Z[j]
+#define ee e e
+#define e(g,x,a...) static e g(a){return({x;});}
+#define _Z ((_G*)Z)[i]
+#define Z_ ((I_*)Z)[i]
+#define Y_ ((S_*)Y)[i]
+#define zk z[i|k]
+#define Gd *(G*)d
+#define Gs *(G*)s
+#define Iz I z
+#define Ez E z
+#define Gy G y
+#define Gz G z
+#define gg g g
+#define sd char*d
+#define ss char*s
+#define st char*t
+#define r5 ((unsigned*)sr)[i]
+#define r6 ((U*)sr)[i]
+#define rG ((G*)sr)[i]
 #define oo ws("oo")
+#define Uh U h
+#define Ui U i
 #define Uf U f
 #define Ua U a
 #define Ub U b
-#define Ux U x
 #define Un U n
-#define re ((e2*)sr)[i]
+#define Uy U y
+#define Uz U z
 #define ai a[i]
 #define aj a[j]
 #define bi b[i]
 #define di d[i]
 #define zi z[i]
 #define zj z[j]
-
-#define Ai A[i]
 #define Bi B[i]
 #define Ci C[i]
 #define Di D[i]
 #define Fi F[i]
-#define Gi G[i]
+#define Hi H[i]
 #define Oi O[i]
-#define Ri R[i]
-#define Xi X[i]
-#define Xj X[j]
-#define Zi Z[i]
-#define a6 x(a,x6)
-#define tr x(r,tx)
-#define pf x(f,px)
-#define pa x(a,px)
-#define aa x(a,ax)
-#define ta x(a,tx)
-#define ma x(a,mx)
-#define ua x(a,ux)
-#define va x(a,vx)
-#define sa x(a,sx)
-#define na x(a,nx)
-#define Na x(a,Nx)
-#define ia x(a,ix)
-#define ea x(a,ex)
-#define ha x(a,hx)
-#define sr x(r,sx)
-#define pr x(r,px)
-#define nr x(r,nx)
-#define Nr x(r,Nx)
-#define ER e6*R
-#define EA e6*A
-#define EX e6*X
-#define IR i6*R
-#define IA i6*A
-#define IX i6*X
-#define iR i2*R
-#define iA i2*A
-#define eR e2*R
-#define eA e2*A
-#define eX e2*X
-#define VR g6*R
-#define VA g6*A
-#define VX g6*X
+#define re ((e*)sr)[i]
+#define Ze static e
+#define Zg static g
+#define Zu static unsigned
+#define ZI static I
+#define ZE static E
+#define ZJ static J
+#define ZU static U
+#define ZG static G
+ZE E0;ZI Z2,N2={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};ZG Z0
+,N0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
+
+#define iH unsigned H
+#define iI unsigned I
+#define iJ unsigned J
+#define ih unsigned h
+#define ii unsigned i
+#define ij unsigned j
+#define ik unsigned k
+#define il unsigned l
+#define im unsigned m
+#define in unsigned n
+#define it unsigned t
+#define ER E*R
+#define EY E*Y
+#define EZ E*Z
+#define IR I*R
+#define IY I*Y
+#define IZ I*Z
+#define iR unsigned*R
+#define iY unsigned*Y
+#define eR e*R
+#define eY e*Y
+#define eZ e*Z
+#define GR G*R
+#define GY G*Y
+#define GZ G*Z
+
+#define iy z(y,iz)
+#define by z(y,bz)
+#define py z(y,pz)
+#define ay z(y,az)
+#define ty z(y,tz)
+#define my z(y,mz)
+#define uy z(y,uz)
+#define vy z(y,vz)
+#define sy z(y,sz)
+#define ny z(y,nz)
+#define Ny z(y,Nz)
+#define ey z(y,ez)
+#define hy z(y,hz)
+#define tr z(r,tz)
+#define sr z(r,sz)
+#define pr z(r,pz)
+#define nr z(r,nz)
+#define Nr z(r,Nz)
+#define pf z(f,pz)

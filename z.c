@@ -1,12 +1,12 @@
 #include"z.h"
-ss;is(n$,o(bswap64)(*(U*)s))U($n,*(U*)s='city',ss,Uz)f(_q,az?z:_r(z))f(rx,az?z:r_(z))is(ns,R(4,i,sd=sr;i(i,*d++=*s++)))is(gs,r(ns(i,s),*(G*)sr&=15))
-Zg*P=":+-*%&|<>=~!@?#_^,$.RENLMS___'/\\",F[27][1<<8],B=32;ZU*D,C[27][32],H[26],ls(ii,ss);U(vf,ss=d;i(26,*s=97+i;s+=!!Hi)ns(s-d,d))g(S,i-=97;_q(Hi);Hi=z)U(K,0,Uf,Uy,Uz)
-U(x,gg[99]=" nyi rnk len typ dom";z=r(pf?k(f-1,y,z):K(f,y,z),$(z(r,pz),_q(y);_q(z)));B>z?(g[z*=4]=P[f],wn(4,g+z)):z,Uf,Uy,Uz)U(n,rx(B>i?Di:H[i-97]?:wn(1,&i)),ii)
-U(c,Uy=0;Uf;ii;W_(B>(f=*s-B)|(i=3>s[1]-61u))z(A(n(*s++)),y=y?A(x(12,y,z)):z);f?z(A(c(s+1+i)),f=B>f?f:A(n(*s));x(i>y?s[i]-B:f,i>y?f:y,z)):y,ss)
+ss;is(n$,o(bswap64)(*(U*)s))U($n,*(U*)s='city',ss,Uz)f(_q,az?z:_r(z))f(rx,az?z:r_(z))U(ns,R(4,i,GR=sr;i(n6(i),Ri=Zi)),ii,GZ)is(gs,r(ns(i,s),*(G*)sr&=15))U mx();
+Zg*P=":+-*%&|<>=~!@?#_^,$.RENLMS___'/\\",F[27][1<<8],B=32;ZU*D,C[27][32],H[26],ls(ii,ss);U(vf,ss=d;i(26,*s=97+i;s+=!!Hi)ns(s-d,d))g(S,i-=97;_q(Hi);Hi=z)X(h,0)
+X(K,gg[99]=" nyi rnk len typ dom";z=r(px?k(x-1,y,z):h(x,y,z),$(z(r,pz),_q(y);_q(z)));B>z?(g[z*=4]=P[x],wn(4,g+z)):z)U(n,rx(B>i?Di:H[i-97]?:wn(1,&i)),ii)
+U(c,Uy=0;Ux;ii;W_(B>(x=*s-B)|(i=3>s[1]-61u))z(A(n(*s++)),y=y?A(K(12,y,z)):z);x?z(A(c(s+1+i)),x=B>x?x:A(n(*s));K(i>y?s[i]-B:x,i>y?x:y,z)):y,ss)
 is(q,ij=ic(B,s)+1;B-s[j]?(S(s[j-2],A(q(1,s+j))),i|2<j?c(s):B):c(s))U(q_,r(i?z(T_()+12*i,i(i,A(_q(q(0,*F))))ti(T*(T_()-z))):q(0,*F),i(32,_q(Di);Di=0)),ii)
 //write
-U($a,$3(m(6,tz)-3>>2,$i(s,iz),$n(s,jz),$e(s,ez)),ss,Uz)f(wa,pz?wn(1,P+z):wn($a(d,z),d))f(wt,(sz[nz-1]-10?wn:w2)(nz,sz))
-f(wv,im=2>tz?:14>tz?(m=l0(a(0,0,z)),m+=1<m):6;ss=d;i(l(nz,191/m),$(1-m,s+=$a(s,_i(i,z));*s++=B)*s++=48|_i(i,z))w2(s-d,d);nz>191/m?ws(".."):wc(10))f(qc,4==tz&(31<*sz|10==*sz))
+U($a,$3(m(6,tz)-3>>2,$i(s,iz),$n(s,jz),$e(s,ez)),ss,Uz)f(wa,pz?wn(1,P+z):wn($a(d,z),d))f(wt,(sz[nz-1]-10?wn:wr)(nz,sz))
+f(wv,im=2>tz?:14>tz?(m=l0(mx(z)),m+=1<m):6;ss=d;i(l(nz,191/m),$(1-m,s+=$a(s,_i(i,z));*s++=B)*s++=48|_i(i,z))wr(s-d,d);nz>191/m?ws(".."):wc(10))f(qc,4==tz&(31<*sz|10==*sz))
 f(wm,i(l(16,uz),Uy=_i(i,z);_y(wv(y)))if(16<uz)ws("..");0)f(wl,i(nz,(qc(z6)?wt:wv)(z6))0)U_(wx,z?az?z-B?wa(z):0:nz?(tz?qc(z)?wt:mz?wm:wv:wl)(z):0:0;z,Uz)
 //parse !"#$%&'()*+, -./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 U(P_,",+ .2$%=@A#!1\"3>& *         ')(-,____5______786___49________?_0/"[64>i?i:i-76],ii)Gf(qe,46==z|96+5==z)U(bn,Uy=b0(qd(z));y|b0(B==z|qe(z))&y<<1|b0(45==z)&~(qn(i)|b0(qn(z))<<1),ii,Gz)

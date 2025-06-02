@@ -2,14 +2,12 @@ t:1e9%n**#v:@m:*&n:256
 \tt mm
 \ttn mv
 \ttn vm
-t:1e9%#e:^#i:_n*?n:1e4
+t:1e9%#e:^#i:_n*?n:1e5
 \tt Se
-\tt eSe
-\tt -e
 \tt _e
-\tt *e
+\tt -e
+/\tt +\i
 \tt %e
-\tt +\i
 \tt Ee
 \tt ii
 t:1e6;v:,s:5
@@ -18,6 +16,7 @@ t:1e6;v:,s:5
 t:1e9%#d:3e7#c:3e6#b:3e5#a:3e4#"a"
 \t1e4t Sa
 \t1e3t Sb
+
 
 
 \t1e2t Sc

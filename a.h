@@ -1,7 +1,9 @@
 #include"_.h"
 #define F(g,x) U(g,x,Uy,Uz)
-extern U O[],wx(U),k_(),_k(U),o_(U,U),_o(U),_i(ii,U),r_(U),_r(U),W;f(iu,z?o(ctzl)(z):64)f(lu,z?64-o(clzl)(z):0)f(nu,o(popcountl)(z))
-U(ic,char*d=s;W(g-*s)++s;s-d,gg,ss)D(int,ix,14>tz?(int)iz:ez,Uz)U(ws,wn(ic(0,s),s),ss)f(wu,i(16,in=15&z>>60-4*i;d[i]="0W"[9<n]+n)wn(16,d);z)
+extern U O[],wx(U),k_(),_k(ii),o_(U,U),_o(U),_i(ii,U),r_(U),_r(U),W;f(iu,z?o(ctzl)(z):64)f(lu,z?64-o(clzl)(z):0)f(nu,o(popcountl)(z))
+
+D(int,ix,14>tz?(int)iz:ez,Uz)
+
 F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i),ii)U(te,tj(14,ue(e)),ee)
 #define az !(z>>63)
 #define bz (L[tz]%16)
@@ -19,26 +21,20 @@ F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i),ii)U(te,tj(14,ue(e)),e
 #define Oz O[oz]
 #define Sz (8*(U)sz)
 
-#define ru ((unsigned*)sr)
-#define zu ((unsigned*)sz)
 #define rU ((U*)sr)
 #define z0 (1&((U*)sz)[i/64]>>i%64)
 #define z3 sz[i]
 #define z5 ((unsigned*)sz)[i]
 #define z6 ((U*)sz)[i]
-#define re ((e*)sr)[i]
 #define r5 ((unsigned*)sr)[i]
 #define r6 ((U*)sr)[i]
 #define R(t,n,x) r(o_(t,n),x)
 #define g(g,x) U(g,x,ii,Uz)
-#define G(g,x) U(g,x,ii,Uy,Uz)
 #define f_(g,x) U_(g,x,Uz)
 #define g_(g,x) U_(g,x,ii,Uz)
 #define F_(g,x) U_(g,x,Uy,Uz)
 #define Q(b) if(b)(ws(__func__),_k(1));
 #define W_(x) while(!(x))
-#define l(a,b) ({typeof(b)$=b;(a)<$?(a):$;})
-#define m(a,b) ({typeof(b)$=b;(a)>$?(a):$;})
 #define _y(b) ({typeof(b)z9=b;_r(y);z9;})
 #define _z(b) ({typeof(b)z9=b;_r(z);z9;})
 #define Ux U x
@@ -48,7 +44,6 @@ F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i),ii)U(te,tj(14,ue(e)),e
 #define Ua U a
 #define Ub U b
 #define Bi B[i]
-#define Di D[i]
 #define Fi F[i]
 #define Hi H[i]
 #define Oi O[i]

@@ -1,3 +1,10 @@
+#define G(g,x) U(g,x,ii,Uy,Uz)
+#define iR unsigned*R
+#define m(a,b) ({typeof(b)$=b;(a)>$?(a):$;})
+#define UY U*Y
+#define Iz I z
+#define Ez E z
+#define Gy G y
 #define IR I*R
 #define IY I*Y
 #define IZ I*Z
@@ -31,6 +38,7 @@ ZG Z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
 #define Zg static char
 #define Uz U z
 Zg*L="30123456789:;456";u(ue,*(unsigned*)&e,ee)e(eu,*(e*)&i,ii)U(b,(1L<<i)-1,ii)f(n3,7+z>>3)f(n4,15+z>>4)f(n6,63+z>>6)f(n9,511+z>>9)
+#define Di D[i]
 #define tz (15&z>>59)
 #define iz (unsigned)z
 #define ez eu(z)
@@ -60,9 +68,13 @@ Zg*L="30123456789:;456";u(ue,*(unsigned*)&e,ee)e(eu,*(e*)&i,ii)U(b,(1L<<i)-1,ii)
 #define $6(z,a,b,c,d,e,f) ({unsigned $=z;!$?a:1==$?b:2==$?c:3==$?d:4==$?e:f;})
 #define $7(z,a,b,c,d,e,f,g) ({unsigned $=z;!$?a:1==$?b:2==$?c:3==$?d:4==$?e:5==$?f:g;})
 #define $8(z,a,b,c,d,e,f,g,h) ({unsigned $=z;!$?a:1==$?b:2==$?c:3==$?d:4==$?e:5==$?f:6==$?g:h;})
+#define $9(z,a,b,c,d,e,f,g,h,i) ({unsigned $=z;!$?a:1==$?b:2==$?c:3==$?d:4==$?e:5==$?f:6==$?g:7==$?h:i;})
 #define ty z(y,tz)
 #define iy z(y,iz)
 #define ey z(y,ez)
 #define W(x) while(({x;}))
 #define ss char*s
-U wr(ii,ss);f(wc,wr(1,&z);0)U(wn,wr(i,s);wc(10),ii,ss)Zg d[1<<8];U(wi,ss=d+16;ij=i>>31?-i:i;do*--s=48+j%10;W(j/=10);if(i>>31)*--s='-';wn(d+16-s,s);i,ii)
+U wr(ii,ss);f(wc,wr(1,&z);0)
+Zg d[1<<8];
+U(wi,ss=d+15;*s=10;ij=i>>31?-i:i;do*--s=48+j%10;W(j/=10);if(i>>31)*--s='-';wr(d+16-s,s);i,ii)
+U(ic,char*d=s;W(g-*s)++s;s-d,gg,ss)U(wn,wr(i,s);wc(10),ii,ss)U(ws,wn(ic(0,s),s),ss)f(wu,i(16,in=15&z>>60-4*i;d[i]="0W"[9<n]+n)wn(16,d);z)

@@ -1,23 +1,21 @@
+#define Ny (ny<<by-3)
+#define Nz (nz<<bz-3)
 #define X(g,x) U(g,x,Ux,Uy,Uz)
 #include"_.h"
 #define F(g,x) U(g,x,Uy,Uz)
-
 extern U wx(),O[],_k(),k(),k_(),o_(U,U),_o(U),_i(ii,U),r_(U),_r(U),W;f(iu,z?o(ctzl)(z):64)f(lu,z?64-o(clzl)(z):0)f(nu,o(popcountl)(z))
-D(int,ix,14>tz?(int)iz:ez,Uz)F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i),ii)U(te,tj(14,ue(e)),ee)
+D(int,ix,14>tz?iz:ez,Uz)F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i),ii)U(te,tj(14,ue(e)),ee)
 #define az !(z>>63)
-#define bz (L[tz]%16)
 #define hz (31&z>>54)
 #define jz (b(59)&z)
 #define mz (31&z>>31)
 #define nz (U)(mz?uz*vz:iz)
 #define oz (255&z>>36)
-#define pz (1l<<59>z)
 #define rz (63&Oz)
 #define sz ((char*)(Oz&~b(6)))
 #define uz (mz?b(mz)&iz:iz)
 #define vz ((b(31)&iz)>>mz)
 #define Oz O[oz]
-#define Sz (8*(U)sz)
 #define rU ((U*)sr)
 #define z0 (1&((U*)sz)[i/64]>>i%64)
 #define z3 sz[i]
@@ -56,9 +54,7 @@ D(int,ix,14>tz?(int)iz:ez,Uz)F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,t
 #define sy z(y,sz)
 #define uy z(y,uz)
 #define vy z(y,vz)
-#define Sy z(y,Sz)
 #define sr z(r,sz)
-#define Sr z(r,Sz)
 #define nr z(r,nz)
 #define tr z(r,tz)
 #define Qz(b) if(b)return 0;

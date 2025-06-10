@@ -1,9 +1,19 @@
-#define N(m,x) i(n##m(n),Ri=x)
+#define pz (1l<<59>z)
+#define bt (L[t]%16)
+#define UG(g,x) U(g,x,Gz)
+#define GU(g,x) D(G,g,x,Uz)
+#define Gg(g,x) D(G,g,x,ii,Gz)
+#define GF(g,x) D(G,g,x,Gy,Gz)
+#define Ef(g,x) D(E,g,x,Ez)
+#define If(g,x) D(I,g,x,Iz)
+#define ZI static I
+#define ZE static E
+#define ZJ static J
 #define UZ U*Z
 #define V_(g,x,a...) void g(a){x;}
-#define IJ iI,iJ,ER,eY,EZ
 #define G(g,x) U(g,x,ii,Uy,Uz)
 #define iR unsigned*R
+#define l(a,b) ({typeof(b)$=b;(a)<$?(a):$;})
 #define m(a,b) ({typeof(b)$=b;(a)>$?(a):$;})
 #define UY U*Y
 #define Iz I z
@@ -19,10 +29,11 @@
 #define Ci C[i]
 #define oo ws("oo")
 #define v(n) __attribute((vector_size(1<<n),aligned(1)))
-typedef unsigned long(*_)(),U,J v(6);typedef char G v(6),_G v(6-2);typedef unsigned I v(6),I_ v(6+2);typedef int Int v(6);typedef float e,E v(6);
+typedef unsigned long(*_)(),U,J v(6);typedef char G v(6),_G v(6-2);typedef int I v(6),I_ v(6+2);typedef float e,E v(6);
 #undef v
 #define ZG static G
 ZG Z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
+ZE E0;ZI Z2,I2={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 #define ZU static U
 #define Gz G z
 #define Gf(g,x) D(G,g,x,Gz)
@@ -45,7 +56,8 @@ ZG Z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
 static char*L="60123456789:;456";u(ue,*(unsigned*)&e,ee)e(eu,*(e*)&i,ii)U(b,(1L<<i)-1,ii)f(n3,7+z>>3)f(n4,15+z>>4)f(n6,63+z>>6)f(n9,511+z>>9)
 #define Di D[i]
 #define tz (15&z>>59)
-#define iz (unsigned)z
+#define bz (L[tz]%16)
+#define iz (int)(U)z
 #define ez eu(z)
 #define o(o) __builtin_##o
 #define z(b,_) ({typeof(b)z=b;_;})
@@ -83,3 +95,9 @@ U wr(ii,ss);f(wc,wr(1,&z);0)
 U(wi,char d[16];ss=d+15;*s=10;ij=i>>31?-i:i;do*--s=48+j%10;W(j/=10);if(i>>31)*--s='-';wr(d+16-s,s);i,ii)
 f(wu,char d[17];d[16]=10;i(16,in=15&z>>60-4*i;d[i]="0W"[9<n]+n)wr(17,d);z)
 U(ic,char*d=s;W(g-*s)++s;s-d,gg,ss)U(wn,wr(i,s);wc(10),ii,ss)U(ws,wn(ic(0,s),s),ss)
+#define zj z[j]
+#define Zj Z[j]
+#define Rj R[j]
+#define yi y[i]
+#define zk z[k]
+

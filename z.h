@@ -3,7 +3,6 @@
 #define A(x...) __attribute((x))
 #define Ni N[i]
 #define si s[i]
-#define l(a,b) ({typeof(b)$=b;(a)<$?(a):$;})
 #define sd char*d
 #define is(g,x) U(g,x,ii,ss)
 #include"a.h"

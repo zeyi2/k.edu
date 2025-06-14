@@ -1,3 +1,17 @@
+#define p6(z,a,b,c,d,e,f) ({E $=z;a+$*(b+$*(c+$*(d+$*(e+$*f))));})
+#define ye (E)yi
+#define ze (E)zi
+#define zg (G)zi
+#define iH unsigned H
+#define iI unsigned I
+#define iJ unsigned J
+#define IR I*R
+#define EZ E*Z
+#define EY E*Y
+#define ER E*R
+#define eY e*Y
+#define gy (char)(U)y
+#define Zg static char
 #define pz (1l<<59>z)
 #define bt (L[t]%16)
 #define UG(g,x) U(g,x,Gz)
@@ -6,6 +20,8 @@
 #define GF(g,x) D(G,g,x,Gy,Gz)
 #define Ef(g,x) D(E,g,x,Ez)
 #define If(g,x) D(I,g,x,Iz)
+#define Ig(g,x) D(I,g,x,ii,Iz)
+#define IF(g,x) D(I,g,x,Iy,Iz)
 #define ZI static I
 #define ZE static E
 #define ZJ static J
@@ -16,6 +32,7 @@
 #define l(a,b) ({typeof(b)$=b;(a)<$?(a):$;})
 #define m(a,b) ({typeof(b)$=b;(a)>$?(a):$;})
 #define UY U*Y
+#define Iy I y
 #define Iz I z
 #define Ez E z
 #define Ea E a
@@ -29,7 +46,7 @@
 #define Ci C[i]
 #define oo ws("oo")
 #define v(n) __attribute((vector_size(1<<n),aligned(1)))
-typedef unsigned long(*_)(),U,J v(6);typedef char G v(6),_G v(6-2);typedef int I v(6),I_ v(6+2);typedef float e,E v(6);
+typedef unsigned long(*_)(),U,J v(6);typedef char G v(6),_G v(6-2);typedef int I v(6),I_ v(6+2);typedef float e,E v(6),E_ v(6+2);
 #undef v
 #define ZG static G
 ZG Z0,I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63};
@@ -53,7 +70,10 @@ ZE E0;ZI Z2,I2={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 #define u(g,x,a...) D(unsigned,g,x,a)
 #define e(g,x,a...) D(e,g,x,a)
 #define Uz U z
-static char*L="60123456789:;456";u(ue,*(unsigned*)&e,ee)e(eu,*(e*)&i,ii)U(b,(1L<<i)-1,ii)f(n3,7+z>>3)f(n4,15+z>>4)f(n6,63+z>>6)f(n9,511+z>>9)
+static char*L="60123456789:;456";
+#define b(i) ((1L<<i)-1)
+//U(b,(1L<<i)-1,ii)
+u(ue,*(unsigned*)&e,ee)e(eu,*(e*)&i,ii)f(n3,7+z>>3)f(n4,15+z>>4)f(n6,63+z>>6)f(n9,511+z>>9)
 #define Di D[i]
 #define tz (15&z>>59)
 #define bz (L[tz]%16)
@@ -78,6 +98,9 @@ static char*L="60123456789:;456";u(ue,*(unsigned*)&e,ee)e(eu,*(e*)&i,ii)U(b,(1L<
 #define G_(g,x) U_(g,x,ii,Uy,Uz)
 #define V(g,x,a...) static void g(a){x;}
 #define i(b,e) {unsigned $=b;ii=0;while(i<$){e;++i;}}
+#define h(n,x) {unsigned $=n;ih=0;while(h<$){x;++h;}}
+#define j(n,x) {unsigned $=n;ij=0;while(j<$){x;++j;}}
+
 #define $(b,z) if(b){z;}else
 #define $3(z,a,b,c) ({unsigned $=z;!$?a:1==$?b:c;})
 #define $4(z,a,b,c,d) ({unsigned $=z;!$?a:1==$?b:2==$?c:d;})
@@ -91,7 +114,7 @@ static char*L="60123456789:;456";u(ue,*(unsigned*)&e,ee)e(eu,*(e*)&i,ii)U(b,(1L<
 #define ey z(y,ez)
 #define W(x) while(({x;}))
 #define ss char*s
-U wr(ii,ss);f(wc,wr(1,&z);0)
+e we(e);U wr(ii,ss);f(wc,wr(1,&z);0)
 U(wi,char d[16];ss=d+15;*s=10;ij=i>>31?-i:i;do*--s=48+j%10;W(j/=10);if(i>>31)*--s='-';wr(d+16-s,s);i,ii)
 f(wu,char d[17];d[16]=10;i(16,in=15&z>>60-4*i;d[i]="0W"[9<n]+n)wr(17,d);z)
 U(ic,char*d=s;W(g-*s)++s;s-d,gg,ss)U(wn,wr(i,s);wc(10),ii,ss)U(ws,wn(ic(0,s),s),ss)

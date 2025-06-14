@@ -1,6 +1,6 @@
 #define Ny (ny<<by-3)
 #define Nz (nz<<bz-3)
-#define X(g,x) U(g,x,Ux,Uy,Uz)
+#define X(g,x) U(g,x,Ur,Uy,Uz)
 #include"_.h"
 #define F(g,x) U(g,x,Uy,Uz)
 extern U wx(),O[],_k(),k(),k_(),o_(U,U),_o(U),_i(ii,U),r_(U),_r(U),W;f(iu,z?o(ctzl)(z):64)f(lu,z?64-o(clzl)(z):0)f(nu,o(popcountl)(z))
@@ -21,15 +21,14 @@ D(int,ix,14>tz?iz:ez,Uz)F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i
 #define z3 sz[i]
 #define z5 ((unsigned*)sz)[i]
 #define z6 ((U*)sz)[i]
+#define r3 sr[i]
 #define r5 ((unsigned*)sr)[i]
 #define r6 ((U*)sr)[i]
-
 #define R(t,n,x) r(o_(t,n),x)
 #define g(g,x) U(g,x,ii,Uz)
 #define f_(g,x) U_(g,x,Uz)
 #define g_(g,x) U_(g,x,ii,Uz)
 #define F_(g,x) U_(g,x,Uy,Uz)
-#define Q(b) if(b)(ws(__func__),_k(1));
 #define W_(x) while(!(x))
 #define _y(b) ({typeof(b)z9=b;_r(y);z9;})
 #define _z(b) ({typeof(b)z9=b;_r(z);z9;})
@@ -57,6 +56,7 @@ D(int,ix,14>tz?iz:ez,Uz)F(tj,y<<59|z)U(tb,tj(1,i),ii)U(tg,tj(4,g),gg)U(ti,tj(6,i
 #define sr z(r,sz)
 #define nr z(r,nz)
 #define tr z(r,tz)
+#define vr z(r,vz)
 #define Qz(b) if(b)return 0;
 #define Qr(b) if(b)return 1;
 #define Qn(b) if(b)return 2;

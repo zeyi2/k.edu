@@ -9,7 +9,7 @@ is(qs,ij=ib(B,s)+1;P(j>i,p(i,s))Uz=Q(qs(i-j,s+j));ih=j-2;j=v(s[h])?s[h--]-B:0;Uy
 U(q,ss=Fi;qs(*s,P=1+s),ii)V(_c,Z=Ci;i(32,_r(Zi);Zi=0),ii)
 //write
 U($a,$3(m(6,tz)-3>>2,$i(s,iz),$n(s,jz),$e(s,ez)),ss,Uz)U($p,ss=Fi;r(*s++,i(r,di=B>si?48+si:96>si?R[si-B]:si)),ii)f(wt,(sz[nz-1]-10?wn:wr)(nz,sz))
-f(wv,im=2>tz?:14>tz?(m=l0(mo(z)),m+=1<m):6;ss=d;i(l(nz,191/m),$(1-m,s+=$a(s,_i(i,z));*s++=B)*s++=48|_i(i,z))wr(s-d,d);nz>191/m?ws(".."):wc(10))f(qc,4==tz&(31<*sz|10==*sz))
+f(wv,im=2>tz?:14>tz?(m=l0(mo(z)),m+=1<m):6;ss=d;i(l(nz,191/m),$(1-m,s+=$a(s,_i(i,z));*s++=B)(*s++=48|_i(i,z),*s++=B))wr(s-d,d);nz>191/m?ws(".."):wc(10))f(qc,4==tz&(31<*sz|10==*sz))
 f(wm,P(!nz,z)P(qc(z),wt(z))P(!mz,wv(z))i(l(20,uz),Uy=_i(i,z);_y(wv(y)))if(20<uz)ws("..");z)f_(wx,$(az,z&&B-z?wn(pz?$p(z):$a(d,z),d):0)$(tz,wm(z))i(nz,wx(z6))z)U N=1;V_(P_,,_ _)U_(_k,_K(i),ii)
 //parse!"#$%&'()*+, -./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 U(R_,",+ .2$%=@A#!1\"3>& *         ')(-,____5______786___49_:______?_0/"[64>i?i:i-76],ii)Gf(qe,46==z|96+5==z)U(bn,Uy=b0(qd(z));y|b0(B==z|qe(z))&y<<1|b0(45==z)&~(qn(i)|b0(qn(z))<<1),ii,Gz)
